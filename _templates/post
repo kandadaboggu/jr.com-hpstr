@@ -5,9 +5,9 @@ modified:
 categories: {{ dir }}
 description:
 tags:
--	Apple
--	Casper
--	OSX
+ - Apple
+ - Casper
+ - OSX
 image:
   feature:
   credit:
