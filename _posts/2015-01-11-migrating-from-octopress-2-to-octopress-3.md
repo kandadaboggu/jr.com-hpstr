@@ -5,7 +5,7 @@ modified:
 categories: {{ dir }}
 description:
 tags:
--	Octopress
+ - Octopress
 image:
   feature: abstract-4.jpg
   credit: dargadgetz
