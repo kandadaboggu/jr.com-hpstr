@@ -49,11 +49,14 @@ Solutions
 ---------
 There are a couple of solutions for a Switcher, it just depends on what they want to perform:
 
-*	{% img left /images/2013/02/24/Grab-ScreenCapture.png 'Grab Screen Caputre Options' %}Grab; You can place the Grab Application (in the Utilities folder) in the dock and let the 'switcher' know that anytime (s)he needs to take a screenshot, just start this application as there are plenty of options in the Capture dropdown menu option.
+![Grab Screen Caputre Options]({{ site.url }}/images/2013/02/24/Grab-ScreenCapture.png)
+{: .image-right}
+
+*	Grab; You can place the Grab Application (in the Utilities folder) in the dock and let the 'switcher' know that anytime (s)he needs to take a screenshot, just start this application as there are plenty of options in the Capture dropdown menu option.
 
 *	Preview; if your 'switcher' want to modify the files such as placing text or arrows on the screen shot, Preview may be a good choice as you can use the File => Take Screen Shot menu option and use Previews Annotate options under the Tools menu dropdown.
 
-{% img center /images/2013/02/24/Preview-ScreenCapture.png 'Preview Screen Capture Options' %}
+![Preview Screen Capture Options]({{ site.url }}/images/2013/02/24/Preview-ScreenCapture.png)
 
 *	Automator; This requires a little work for yourself, but it solve two things that I didn't like about the other two options:
 	
@@ -69,10 +72,10 @@ Here are the steps:
 3.	At the top, Service receives "no input" which is the last item in the dropdown field and be sure to leave the "Any Application" which is the default setting.
 4.	Copy/paste this code
 
-``` bash
+{% highlight bash %}
 fileDate=`date '+%Y.%m.%d-%T'`
 screencapture -ioW ~/Desktop/ScreenShot_"${fileDate}".png
-```
+{% endhighlight %}
 
 This will capture the current application that is running in interactive mode with the 'window capture' mode as default vs. the crosshairs.  It will save the resulting file to the user's desktop with the current date/time stamp just in case they are taking multiple pictures.
 

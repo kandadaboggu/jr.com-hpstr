@@ -28,7 +28,7 @@ Environment
 
 Our EC2 was running a fresh install from Amazon's images of Ubuntu Server 12.04 LTS, and we performed the following items.
 
-``` bash
+{% highlight bash %}
 # Update the default image
 sudo apt-get update
 sudo apt-get upgade
@@ -71,7 +71,7 @@ smbpasswd -a casperadmin
 ;	valid users = casperadmin
 ;	public = no
 ;	writable = yes
-```
+{% endhighlight %}
 
 Notes
 -----

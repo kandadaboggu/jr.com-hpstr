@@ -38,7 +38,9 @@ Once your VM is running (with proper networking, DNS, hostname), copy JAMF's JDS
 
 There you go!  I did this twice (JDS1 and JDS2) and now my JSS reports both distribution points.
 
+<figure>
 <a href="/images/2013/08/31/JDS.png"><img src="/images/2013/08/31/JDS_480.png" alt="JDS installed on JSS screenshot" title="JDS installed on JSS screenshot" /></a>
+</figure>
 
 ## Summary
 The output gist log has some very interesting output items and shows you how much JAMF is working for you to make things easy.

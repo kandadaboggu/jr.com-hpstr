@@ -15,7 +15,9 @@ published: true
 
 Classic Environment
 
-![APNS Image 2][apns-2]
+<figure>
+<a href="/images/2013/07/18/apns-2.png"><img src="/images/2013/07/18/apns-2_480.png" alt="" title="" /></a>
+</figure>
 
 -	"Work" location where your MDM (CasperSuite JSS in this example), and other internal servers may exist.
 -	"Home" location because people take their equipment home and still do work from the comforts of their couch.
@@ -28,19 +30,27 @@ You as the OS X and/or iOS Administrator want your devices to do *something*.  I
 
 -	Communicate to Apple's Push Notification Servers (APNS) over ports 2195, and 2196 to "FIND MY DEVICES".
 
-![APNS Image 3][apns-3]
+<figure>
+<a href="/images/2013/07/18/apns-3.png"><img src="/images/2013/07/18/apns-3_480.png" alt="" title="" /></a>
+</figure>
 
 -	Your devices are already connected to APNS once they turn on, they have Internet connection, AND port 5223 is not blocked.  When your device does connect to Apple's APNS network, it gets a token.
 
-![APNS Image 4][apns-4]
+<figure>
+<a href="/images/2013/07/18/apns-4.png"><img src="/images/2013/07/18/apns-4_480.png" alt="" title="" /></a>
+</figure>
 
 -	It's this token that allows Apple's APNS network to find and talk to your devices through your firewall. They key element is when APNS push commands are sent, the only bits of information in the payload from Apple is **"HEY *Device*!  Talk to your MDM"** and nothing else.  That is where APNS stops being the middle man and lets a secure communication take over between your devices and MDM only.
 
-![APNS Image 5][apns-5]
+<figure>
+<a href="/images/2013/07/18/apns-5.png"><img src="/images/2013/07/18/apns-5_480.png" alt="" title="" /></a>
+</figure>
 
 -	Once the devices received that command, they will then talk to your MDM over their designated port for the next set of commands you wish to execute from the MDM.  In my example commands are sent over port 8443 as this is the port for the Casper Suite (but it may be 443 for other MDM's such as Profile Manager).
 
-![APNS Image 6][apns-6]
+<figure>
+<a href="/images/2013/07/18/apns-6.png"><img src="/images/2013/07/18/apns-6_480.png" alt="" title="" /></a>
+</figure>
 
 -	Your devices then do whatever your MDM requests.
 
@@ -50,15 +60,21 @@ Some examples that the JSS can do to help manage your OSX environment include:
 
 -	Request to get Software Updates from your Internal SUS over port 8088
 
-![APNS Image 7][apns-7]
+<figure>
+<a href="/images/2013/07/18/apns-7.png"><img src="/images/2013/07/18/apns-7_480.png" alt="" title="" /></a>
+</figure>
 
 -	Install packages from an SMB (445) or AFP (548) FileShare
 
-![APNS Image 8][apns-8]
+<figure>
+<a href="/images/2013/07/18/apns-8.png"><img src="/images/2013/07/18/apns-8_480.png" alt="" title="" /></a>
+</figure>
 
 -	Install packages from an HTTP (80) or HTTPS (443) server.&nbsp;<sup id="fnr1-2013-07-18">[1]</sup>
 
-![APNS Image 9][apns-9]
+<figure>
+<a href="/images/2013/07/18/apns-9.png"><img src="/images/2013/07/18/apns-9_480.png" alt="" title="" /></a>
+</figure>
 
 -	Force NetBoot, but I'm not going into the port numbers for that as there are too many.
 
@@ -80,16 +96,6 @@ Some examples that the JSS can do to help manage your OSX environment include:
 -	[Apple's list of Ports for APNS][ports]
 -	[Apple's NetBoot troubleshooting][netboot]
 -	[Well known TCP and UDP ports used by Apple][wellKnown]
-
-[apns-1]: /images/2013/07/18/apns-1_480.png
-[apns-2]: /images/2013/07/18/apns-2_480.png
-[apns-3]: /images/2013/07/18/apns-3_480.png
-[apns-4]: /images/2013/07/18/apns-4_480.png
-[apns-5]: /images/2013/07/18/apns-5_480.png
-[apns-6]: /images/2013/07/18/apns-6_480.png
-[apns-7]: /images/2013/07/18/apns-7_480.png
-[apns-8]: /images/2013/07/18/apns-8_480.png
-[apns-9]: /images/2013/07/18/apns-9_480.png
 
 [APNS]: http://developer.apple.com/library/mac/#documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/ApplePushService.html#//apple_ref/doc/uid/TP40008194-CH100-SW9 
 [push]: https://help.apple.com/advancedserveradmin/mac/10.8/#apdBCCA9A8E-119C-4871-BB33-8C98264D9572 

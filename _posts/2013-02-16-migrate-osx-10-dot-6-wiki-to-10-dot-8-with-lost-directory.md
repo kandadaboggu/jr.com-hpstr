@@ -33,7 +33,8 @@ Final Workflow
 What I have done several times is migrate 10.6 Wiki to a new 10.6 Wiki server because I can always strip the permissions data by doing the following steps.
 
 ### 10.6 Server Wiki to 10.6 server ###
-``` bash Wiki Migrate https://discussions.apple.com/message/10479747#10479747 Source Article
+{% highlight bash %}
+# Wiki Migrate https://discussions.apple.com/message/10479747#10479747 Source Article
 sudo serveradmin stop web
 sudo mv /tmp/Collaboration/Groups/ /Library/Collaboration/Groups/
 sudo chown -R 94:94 /Library/Collaboration/Groups/
@@ -41,7 +42,7 @@ sudo rm /Library/Collaboration/dataVersion.plist
 sudo rm /Library/Collaboration/globalIndex.db
 sudo rm /Library/Application Support/Apple/WikiServer/directoryIndex.db
 sudo serveradmin start web
-```
+{% endhighlight %}
 
 The end result is a working 10.6 Wiki server.  So what about the the new hardware that cannot run 10.6.8 Server...  VMware to the rescue!  You can install 10.6.8 Server in VMware Fusion as it's a Server OS (thus is compliant to Apple's EULA).  *Now* we can upgrade to 10.8 and move the Wiki content from the VM to the real server by following [Apple's kbase article][HT5585].  You would think that wouldn't you.
 
@@ -74,9 +75,10 @@ Lessons Learned
 ---------------
 Wiki uses authentication, but simple usernames and passwords are not the limit to how Wiki is tied to the directory system.	 Wiki is now using UUID's to identify who has read/write/owner of Wiki data.  You know, this one:
 
-``` bash dscl command to find the GeneratedUID of diradmin
+{% highlight bash %}
+# dscl command to find the GeneratedUID of diradmin
 sadmin@osxs1 ~> dscl /Search -read /Users/diradmin GeneratedUID
 GeneratedUID: 27D18844-70C6-4BDD-BE3A-5B26A6FDEA1B
 
 # not my real UUID.	 Generated via command 'uuidgen'
-```
+{% endhighlight %}

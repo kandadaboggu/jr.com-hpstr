@@ -12,7 +12,7 @@ tags:
 comments: true
 ---
 Overview
---------
+---
 The concepts for installing Open Directory is exactly the same as previous versions of OS X Server. Select whichever you want (Master or Replica) and walk through the assistant to get your ODM/ODR running. Screenshots of this process are below with quick comments. The glaring item is that the true functionality of Open Directory is now LDAP, Kerberos, and PasswordServer; and nothing more. Workgroup Manager used to store its values within the ODM’s Apple LDAP schema, but WGM does not exist anymore (that’s what you get for writing before things are released… [WGM does exist!][DL1567]). The transition to using Configuration Profiles is now complete from Apple’s point of view, which is just like the transition to do everything via Server.app.
 
 [DL1567]: http://support.apple.com/kb/DL1567
@@ -29,67 +29,51 @@ I’ll do my best to work on the first two bullets, PLUS AD integration for futu
 
 The on thing that is missing from the GUI is a backup and Restore process. 
 
-### Open Directory Master Setup
-
-![mtl-ODM1][mtl-ODM1]
+Open Directory Master Setup
+---
+![1-mtl-ODM.png]({{ site.url }}/images/2012/07/1-mtl-ODM.png)
 (Click the “On” button on the top right hand side. You should be used to this as everything uses this method to enable services.)
 
-![mtl-ODM2][mtl-ODM2]
+![2-mtl-ODM.png]({{ site.url }}/images/2012/07/2-mtl-ODM.png)
 (Creating a ODM first.)
 
-![mtl-ODM3][mtl-ODM3]
+![3-mtl-ODM.png]({{ site.url }}/images/2012/07/3-mtl-ODM.png)
 (The usual “diradmin” username and password.)
 
-![mtl-ODM4][mtl-ODM4]
+![4-mtl-ODM.png]({{ site.url }}/images/2012/07/4-mtl-ODM.png)
 (This is for your SSL Certificates.)
 
-![mtl-ODM5][mtl-ODM5]
+![5-mtl-ODM.png]({{ site.url }}/images/2012/07/5-mtl-ODM.png)
 (Verify information and click on the “Set Up” button.)
 
-![mtl-ODM6][mtl-ODM6]
+![6-mtl-ODM.png]({{ site.url }}/images/2012/07/6-mtl-ODM.png)
 (Configuring your new ODM.)
 
-![mtl-ODM7][mtl-ODM7]
+![7-mtl-ODM.png]({{ site.url }}/images/2012/07/7-mtl-ODM.png)
 (View of ODM server now complete.)
 
-![mtl-ODM8][mtl-ODM8]
+![8-mtl-ODM.png]({{ site.url }}/images/2012/07/8-mtl-ODM.png)
 (Select your ODM Server, and click on the gear icon to set your Global Password Policy.)
 
-![mtl-ODM9][mtl-ODM9]
+![9-mtl-ODM.png]({{ site.url }}/images/2012/07/9-mtl-ODM.png)
 (Locals are also available in Mt Lion OS X Server.)
 
-![mtl-ODM10][mtl-ODM10]
+![10-mtl-ODM.png]({{ site.url }}/images/2012/07/10-mtl-ODM.png)
 (View of the default Locale configuration.)
 
 Open Directory Replica Setup
-----------------------------
-![mtl-ODM11][mtl-ODM11]
+---
+![ODR 1]({{ site.url }}/images/2012/07/11-mtl-ODM.png)
 (When you want to create a ODR, select the second option and click on “Next”.)
 
-![mtl-ODM12][mtl-ODM12]
+![ODR 2]({{ site.url }}/images/2012/07/12-mtl-ODR.png)
 (Provide the ODM’s FQDN, diradmin username and password, then click on “Next”.)
 
-![mtl-ODM13][mtl-ODM13]
+![ODR 3]({{ site.url }}/images/2012/07/13-mtl-ODR.png)
 (If you receive any error messages, my first guest is you have BAD DNS. In this case, I pointed my Ethernet Settings to a bad value of a DNS server.)
 
-![mtl-ODM14][mtl-ODM14]
+![ODR 4]({{ site.url }}/images/2012/07/14-mtl-ODR.png)
 (Verify ODR settings and click on “Set Up” button.)
 
-![mtl-ODM15][mtl-ODM15]
+![ODR 5]({{ site.url }}/images/2012/07/15-mtl-ODM.png)
 (View from the ODM Server, which now recognizes that and ODR is available.)
-
-[mtl-ODM1]: /images/2012/07/1-mtl-ODM.png
-[mtl-ODM2]: /images/2012/07/2-mtl-ODM.png
-[mtl-ODM3]: /images/2012/07/3-mtl-ODM.png
-[mtl-ODM4]: /images/2012/07/4-mtl-ODM.png
-[mtl-ODM5]: /images/2012/07/5-mtl-ODM.png
-[mtl-ODM6]: /images/2012/07/6-mtl-ODM.png
-[mtl-ODM7]: /images/2012/07/7-mtl-ODM.png
-[mtl-ODM8]: /images/2012/07/8-mtl-ODM.png
-[mtl-ODM9]: /images/2012/07/9-mtl-ODM.png
-[mtl-ODM10]: /images/2012/07/10-mtl-ODM.png
-[mtl-ODM11]: /images/2012/07/12-mtl-ODR.png
-[mtl-ODM12]: /images/2012/07/13-mtl-ODR.png
-[mtl-ODM13]: /images/2012/07/14-mtl-ODR.png
-[mtl-ODM14]: /images/2012/07/15-mtl-ODM.png
-[mtl-ODM15]: /images/2012/07/11-mtl-ODM.png

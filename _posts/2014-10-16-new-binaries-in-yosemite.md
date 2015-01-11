@@ -28,14 +28,14 @@ Nothing was added, what should not be surprising is what was removed, specifical
 #### /usr/bin
 There are a lot of updated binaries that had endings of ".12" which were removed and ".18" were added.  Don't really know what those are.  There are some new items with AVB (which was actually added in 10.9.5), but was is really interesting is all the "diagnose" items.  If you think Apple has a QA problem, they are trying to fix it with all of these diagnose binaries such as: 
 
-``` bash
+{% highlight bash %}
 avbdiagnose     # Audio Visual diagnose
 csdiagnose      # CoreStorage  diagnose
 csgather        # CoreStorage metadata for diagnosis
 ostraceutil     # OS
 taskinfo        # Prints current processes
 thermals        # I have no idea what "thermals" is doing.
-```
+{% endhighlight %}
 
 #### /usr/libexec
 A lot of new "*d" daemon processes that do not have man files or output help files when executed, but PlistBuddy is still there! 
@@ -51,7 +51,7 @@ We have DNS debugging! More info in man discoveryd such as logging level (None, 
 
 Some of the fun commands for discoveryutil are: 
 
-``` bash
+{% highlight bash %}
 sudo discoveryutil help                 # prints all discoveryutil options
 sudo discoveryutil configresolvers      # gives DNS servers for each interface and search domain
 sudo discoveryutil mdnsflushcache       # everyones favorite network "fix"
@@ -59,7 +59,7 @@ sudo discoveryutil mdnsbrowses          # gives all the _service._tcp.domain.tld
 sudo discoveryutil mdnsregistrations    # current machine's MDNS broadcast
 sudo discoveryutil loglevel             # Default is "Basic", can see above for levels
 sudo discoveryutil configinterfaces     # Current IP configurations for each interface.  something like a reformatted ipconfig or ifconfig
-```
+{% endhighlight %}
 
 **dnctl** - this command forces your machine to work on a poor network for testing.  The man page gives you a checklist (things to think about), variable flag options, and some examples.
 
