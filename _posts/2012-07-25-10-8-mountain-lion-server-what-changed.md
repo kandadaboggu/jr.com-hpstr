@@ -5,7 +5,7 @@ layout: post
 permalink: /10-8-mountain-lion-server-what-changed/
 shorturl:
   - http://j.mp/MGHMOJ
-categories:
+tags: 
   - Apple
   - Mt Lion
   - OSXS

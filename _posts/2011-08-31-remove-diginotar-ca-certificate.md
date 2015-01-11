@@ -5,7 +5,7 @@ layout: post
 permalink: /remove-diginotar-ca-certificate/
 shorturl:
   - http://j.mp/nOeJ56
-categories:
+tags: 
   - Apple
   - certificates
   - Lion

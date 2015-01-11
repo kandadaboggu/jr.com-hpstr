@@ -5,7 +5,7 @@ layout: post
 permalink: /built-in-hidden-command-line-tools-stroke-and-airport/
 shorturl:
   - http://j.mp/pao6S0
-categories:
+tags: 
   - Apple
   - cli
   - Lion

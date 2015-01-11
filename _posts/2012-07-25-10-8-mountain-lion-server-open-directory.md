@@ -5,7 +5,7 @@ layout: post
 permalink: /10-8-mountain-lion-server-open-directory/
 shorturl:
   - http://j.mp/MGHHKU
-categories:
+tags: 
   - Apple
   - Mt Lion
   - OSXS

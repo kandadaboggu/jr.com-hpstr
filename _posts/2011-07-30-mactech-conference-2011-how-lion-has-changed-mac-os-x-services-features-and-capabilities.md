@@ -5,7 +5,7 @@ layout: post
 permalink: /mactech-conference-2011-how-lion-has-changed-mac-os-x-services-features-and-capabilities/
 shorturl:
   - http://j.mp/p8BCZP
-categories:
+tags: 
   - Lion
   - Mactech
   - OSXS

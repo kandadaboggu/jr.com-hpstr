@@ -5,7 +5,7 @@ layout: post
 permalink: /10-8-mountain-lion-server-file-sharing-and-ftp/
 shorturl:
   - http://j.mp/NJtOuq
-categories:
+tags: 
   - Apple
   - Mt Lion
   - OSXS

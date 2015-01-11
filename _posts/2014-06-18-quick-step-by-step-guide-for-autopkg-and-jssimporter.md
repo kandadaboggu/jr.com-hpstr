@@ -3,7 +3,7 @@ title: "Quick Step-by-Step Guide for AutoPKG and JSSImporter"
 author: Justin Rummel
 layout: post
 date: 2014-06-18 09:43
-categories:
+tags: 
  - Casper Suite
  - JAMF
  - JSS

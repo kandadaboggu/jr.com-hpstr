@@ -5,7 +5,7 @@ layout: post
 permalink: /smime-email-certificates-in-depth/
 shorturl:
   - http://j.mp/poq26v
-categories:
+tags: 
   - Apple
   - certificates
   - iOS

@@ -3,7 +3,7 @@ title: "Using .p12 or JKS files with OS X"
 author: Justin Rummel
 layout: post
 date: 2014-03-18 15:10
-categories:
+tags: 
  - Apple
  - Casper Suite
  - JAMF

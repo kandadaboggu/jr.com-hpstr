@@ -5,7 +5,7 @@ layout: post
 permalink: /macworld-2010-it843-deploying-podcast-producer-in-an-active-directory-environment/
 shorturl:
   - http://bit.ly/8VU1qD
-categories:
+tags: 
   - Apple
   - Macworld
   - Podcast Producer

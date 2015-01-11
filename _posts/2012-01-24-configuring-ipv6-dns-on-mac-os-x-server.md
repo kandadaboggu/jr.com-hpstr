@@ -5,7 +5,7 @@ layout: post
 permalink: /configuring-ipv6-dns-on-mac-os-x-server/
 shorturl:
   - http://j.mp/xVMM9L
-categories:
+tags: 
   - Apple
   - DNS
   - IPv6

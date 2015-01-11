@@ -5,7 +5,7 @@ layout: post
 permalink: /macit-2013-sessions/
 shorturl:
   - http://j.mp/SASMwp
-categories:
+tags: 
   - MacIT
   - Macworld
   - OSXS

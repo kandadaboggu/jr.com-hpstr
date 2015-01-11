@@ -5,7 +5,7 @@ layout: post
 permalink: /apples-built-in-anti-virus-xprotect/
 shorturl:
   - http://j.mp/vICnqI
-categories:
+tags: 
   - Apple
   - Lion
   - cli

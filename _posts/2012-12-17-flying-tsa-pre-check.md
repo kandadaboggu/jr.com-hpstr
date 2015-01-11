@@ -5,7 +5,7 @@ layout: post
 permalink: /flying-tsa-pre-check/
 shorturl:
   - http://j.mp/ZdmsrM
-categories:
+tags: 
   - Professional
   - Global Entry
   - GOES

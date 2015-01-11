@@ -5,7 +5,7 @@ layout: post
 permalink: /10-8-mountain-lion-server-netinstall/
 shorturl:
   - http://j.mp/MGHvv0
-categories:
+tags: 
   - Apple
   - Mt Lion
   - OSXS

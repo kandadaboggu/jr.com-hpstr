@@ -5,7 +5,7 @@ layout: post
 permalink: /it851-how-lion-has-changed-mac-os-x-services-features-capabilities/
 shorturl:
   - http://j.mp/zmaV1u
-categories:
+tags: 
   - Apple
   - Lion
   - MacIT

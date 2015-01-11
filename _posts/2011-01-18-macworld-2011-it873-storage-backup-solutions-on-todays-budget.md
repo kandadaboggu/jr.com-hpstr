@@ -5,7 +5,7 @@ layout: post
 permalink: /macworld-2011-it873-storage-backup-solutions-on-todays-budget/
 shorturl:
   - http://bit.ly/gEA3xi
-categories:
+tags: 
   - Apple
   - Backups
   - Macworld

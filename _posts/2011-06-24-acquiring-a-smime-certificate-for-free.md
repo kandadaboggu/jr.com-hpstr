@@ -5,7 +5,7 @@ layout: post
 permalink: /acquiring-a-smime-certificate-for-free/
 shorturl:
   - http://j.mp/qeaPgV
-categories:
+tags: 
   - Apple
   - certificates
   - iOS

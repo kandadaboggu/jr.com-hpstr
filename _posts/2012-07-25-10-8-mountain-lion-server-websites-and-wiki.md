@@ -5,7 +5,7 @@ layout: post
 permalink: /10-8-mountain-lion-server-websites-and-wiki/
 shorturl:
   - http://j.mp/MGHp6H
-categories:
+tags: 
   - Apple
   - Mt Lion
   - OSXS

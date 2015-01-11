@@ -5,7 +5,7 @@ layout: post
 permalink: /10-8-mountain-lion-server-software-update/
 shorturl:
   - http://j.mp/MGHsiP
-categories:
+tags: 
   - Apple
   - Mt Lion
   - OSXS

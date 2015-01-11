@@ -3,7 +3,7 @@ title: "Working with VPP and DEP Apple IDs"
 author: Justin Rummel
 layout: post
 date: 2014-04-26 09:50
-categories:
+tags: 
  - Apple
  - VPP
  - DEP

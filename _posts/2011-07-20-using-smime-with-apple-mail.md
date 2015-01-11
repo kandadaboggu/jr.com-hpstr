@@ -5,7 +5,7 @@ layout: post
 permalink: /using-smime-with-apple-mail/
 shorturl:
   - http://j.mp/qnJpvQ
-categories:
+tags: 
   - Apple
   - certificates
   - Lion

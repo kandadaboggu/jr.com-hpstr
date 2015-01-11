@@ -5,7 +5,7 @@ layout: post
 permalink: /working-with-ipv6-and-mac-os-x/
 shorturl:
   - http://j.mp/AkkP0R
-categories:
+tags: 
   - Apple
   - IPv6
   - Lion

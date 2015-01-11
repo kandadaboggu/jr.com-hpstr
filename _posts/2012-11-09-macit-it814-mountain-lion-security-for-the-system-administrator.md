@@ -5,7 +5,7 @@ layout: post
 permalink: /macit-it814-mountain-lion-security-for-the-system-administrator/
 shorturl:
   - http://j.mp/SAQ1Ly
-categories:
+tags: 
   - MacIT
   - Macworld
   - Mt Lion
