@@ -4,6 +4,10 @@ layout: page
 comments: false
 sharing: true
 footer: true
+image:
+  feature: abstract-4.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 ### Education ###
 **Master of Science**, Ball State University, *Information and Communication Sciences*, July 2000.
