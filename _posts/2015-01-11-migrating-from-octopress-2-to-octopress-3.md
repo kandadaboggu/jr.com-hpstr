@@ -1,7 +1,17 @@
 ---
 layout: post
 title: "Migrating From Octopress 2 to Octopress 3"
-date: 2015-01-11T16:38:49-05:00
+modified:
+categories: {{ dir }}
+description:
+tags:
+-	Octopress
+image:
+  feature: abstract-4.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+comments: true
+share: true
 ---
 I've been using [Octopress 2 since February of 2013](/octotransfigurator-inator-migrating-from-wordpress/) and I've learned a little about ruby (not that I've programed any), updated my knowledge about current website frameworks, and have seen what it takes to maintain an open-source project that is actually popular.
 
