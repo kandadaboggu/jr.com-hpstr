@@ -8,6 +8,10 @@ tags:
  - JAMF
 comments: true
 published: true
+image:
+  feature: abstract-4.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
 For those who wanted a copy of my *Policies 101: Unleash the Power!* talk at JAMF Nation User Conference 2014, here are links to the slides in PDF and Keynote format.

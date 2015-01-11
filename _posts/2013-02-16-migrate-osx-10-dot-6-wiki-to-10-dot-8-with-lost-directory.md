@@ -9,6 +9,10 @@ tags:
   - Wiki
   - OSXS
 comments: true
+image:
+  feature: abstract-4.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 This title is very specific and may not be everyone's exact scenario, however, there was plenty of beneficial items in my latest exercise with Wiki data on OS X; specifically taking old 10.6 Wiki data and putting it on a new server in which the Directory information was lost.
 

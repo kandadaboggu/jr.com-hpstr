@@ -9,6 +9,10 @@ tags:
  - XProtect
 comments: true
 published: true
+image:
+  feature: abstract-4.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 On Feb 19, 2013 11:48 PM Topher Kessler releases his article for CNET that [New Mac malware opens secure reverse shell][8301-13727_7-57570100-263] is out, "but has not yet been determined to be much of a threat".  His article properly sources [Intego's][intego] original article on the matter. In short it uses a modified implementation of openssl to establish a secure connection to a remote server thus creating a [botnet][botnet] or Command and Control (C&C) environment. 
 

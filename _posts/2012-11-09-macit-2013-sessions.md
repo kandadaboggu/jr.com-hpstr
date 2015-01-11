@@ -10,6 +10,10 @@ tags:
   - Macworld
   - OSXS
 comments: true
+image:
+  feature: abstract-4.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 For my fifth year in a row, I'll be presenting at [Macworld MacIT conference][MacIT] in January of 2013! I'll be presenting on two topics this year:
 

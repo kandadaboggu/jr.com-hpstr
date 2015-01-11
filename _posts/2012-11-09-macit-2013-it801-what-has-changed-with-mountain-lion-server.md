@@ -11,6 +11,10 @@ tags:
   - Mt Lion
   - OSXS
 comments: true
+image:
+  feature: abstract-4.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 Thursday January 31, 2013 10:20am – 11:05am
 -------------------------------------------

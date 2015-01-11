@@ -11,6 +11,10 @@ tags:
  - Apple ID
 comments: true
 published: true
+image:
+  feature: abstract-4.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 These are notes about getting the Apple IDS and their two-step verification authentication ready for Apples Volume Purchasing Program (VPP) and Device Enrollment Program (DEP).  WORST case give yourself two weeks to complete all the items listed below, but realisticly it can be done within three business days.
 

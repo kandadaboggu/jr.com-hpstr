@@ -12,6 +12,10 @@ tags:
   - Lion
   - OSXS
 comments: true
+image:
+  feature: abstract-4.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 What are you bitching about and IPv6?
 -------------------------------------

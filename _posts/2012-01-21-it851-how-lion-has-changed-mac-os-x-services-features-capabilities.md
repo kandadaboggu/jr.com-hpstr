@@ -11,6 +11,10 @@ tags:
   - MacIT
   - Macworld
 comments: true
+image:
+  feature: abstract-4.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 Friday, January 27, 2012 (10:20am – 11:05am)
 --------------------------------------------

@@ -12,6 +12,10 @@ tags:
   - OSX
   - OSXS
 comments: true
+image:
+  feature: abstract-4.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 First, I want to say thanks to [Edward Marczak][radiotope] for his original post on how to remove the Diginotar CA Certificate, and his forward thinking about how to do this from a System Admin perspective. I wanted to add a few more bits of info to his post to better explain the *security* command.
 

@@ -11,6 +11,10 @@ tags:
  - CrashPlan
 comments: true
 published: true
+image:
+  feature: abstract-4.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 ## Overview
 My test CrashPlan PROe (CPPe, a.k.a "Black") environment has been troubled with this [VMware Fusion bug][vmware] where linking a shared folder has some issues with read/write.  The end result was anytime a client (Mac or Windows) running CrashPlan PROe had to restart, CrashPlan PROe Server would go into a deep prune session that would last for days (more info in the logs, but you get the idea).  Not very reassuring when dealing with backups.
