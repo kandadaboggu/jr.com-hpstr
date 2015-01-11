@@ -27,6 +27,7 @@
 }
 .image-right {
 	float: none;
+	padding: 10px;
 	@media #{$medium} {
 		float: right;
 	}
