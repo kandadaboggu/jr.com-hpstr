@@ -3,7 +3,7 @@ title: "New binaries in Yosemite"
 author: Justin Rummel
 layout: post
 date: 2014-10-16 09:30
-categories: 
+tags: 
  - Apple
  - Yosemite
  - OSX

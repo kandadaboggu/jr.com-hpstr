@@ -3,7 +3,7 @@ title: "Computers Not Available for Configuration Profiles in Casper Suite"
 author: Justin Rummel
 layout: post
 date: 2013-07-04 16:41
-categories: 
+tags: 
  - APNS
  - Casper Suite
  - JAMF

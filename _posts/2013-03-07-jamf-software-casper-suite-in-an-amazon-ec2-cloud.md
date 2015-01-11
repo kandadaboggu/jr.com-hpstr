@@ -3,7 +3,7 @@ title: "JAMF Software Casper Suite in an Amazon EC2 Cloud"
 author: Justin Rummel
 layout: post
 date: 2013-03-07 18:56
-categories: 
+tags: 
  - JAMF
  - Casper Suite
  - Amazon

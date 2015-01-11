@@ -3,7 +3,7 @@ title: "I moved my domains to Google Domains, and you won't believe what happene
 author: Justin Rummel
 layout: post
 date: 2014-12-30 14:53
-categories: 
+tags: 
  - Google
 comments: true
 published: true

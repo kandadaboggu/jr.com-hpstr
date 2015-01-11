@@ -3,7 +3,7 @@ title: "Policies 101-Unleash the Power!"
 author: Justin Rummel
 layout: post
 date: 2014-10-21 15:53
-categories: 
+tags: 
  - Casper Suite
  - JAMF
 comments: true

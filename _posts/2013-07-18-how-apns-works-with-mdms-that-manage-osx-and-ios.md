@@ -3,7 +3,7 @@ title: "How APNS works with MDMs that manage OSX and iOS"
 author: Justin Rummel
 layout: post
 date: 2013-07-18 16:21
-categories: 
+tags: 
  - Apple
  - Casper
  - JAMF

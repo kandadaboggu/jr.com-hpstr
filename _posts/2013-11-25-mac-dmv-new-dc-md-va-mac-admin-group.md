@@ -3,7 +3,7 @@ title: "MacDMV: New DC, MD, VA Mac Admin Group"
 author: Justin Rummel
 layout: post
 date: 2013-11-25 15:32
-categories: 
+tags: 
  - Apple
  - MacDMV
  - OSXS

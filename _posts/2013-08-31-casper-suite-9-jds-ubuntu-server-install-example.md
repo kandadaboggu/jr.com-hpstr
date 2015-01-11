@@ -3,7 +3,7 @@ title: "Casper Suite 9: JDS Ubuntu Server Install Example"
 author: Justin Rummel
 layout: post
 date: 2013-08-31 14:32
-categories: 
+tags: 
  - Casper Suite
  - JAMF
  - JDS

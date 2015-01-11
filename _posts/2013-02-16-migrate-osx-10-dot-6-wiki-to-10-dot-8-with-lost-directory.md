@@ -3,7 +3,7 @@ title: "Migrate OSX 10.6 Wiki to 10.8 with lost Directory"
 author: Justin Rummel
 layout: post
 date: 2013-02-16 13:12
-categories: 
+tags: 
   - Apple
   - Mt Lion
   - Wiki

@@ -3,7 +3,7 @@ title: "2013 Berryman Adventure Race"
 author: Justin Rummel
 layout: post
 date: 2013-09-30 12:01
-categories: 
+tags: 
  - Travel
 comments: true
 published: true

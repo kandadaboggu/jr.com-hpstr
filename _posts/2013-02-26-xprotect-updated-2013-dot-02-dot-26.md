@@ -3,7 +3,7 @@ title: "XProtect updated - 2013.02.26"
 author: Justin Rummel
 layout: post
 date: 2013-02-26 11:54
-categories: 
+tags: 
  - Apple
  - Mt Lion
  - XProtect
