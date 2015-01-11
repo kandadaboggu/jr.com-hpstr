@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Migrating From Octopress 2 to Octopress 3"
+date: 2015-01-11T16:38:49-05:00
 ---
 I've been using [Octopress 2 since February of 2013](/octotransfigurator-inator-migrating-from-wordpress/) and I've learned a little about ruby (not that I've programed any), updated my knowledge about current website frameworks, and have seen what it takes to maintain an open-source project that is actually popular.
 
