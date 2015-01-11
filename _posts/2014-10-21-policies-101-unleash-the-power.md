@@ -19,7 +19,7 @@ For those who wanted a copy of my *Policies 101: Unleash the Power!* talk at JAM
 
 Now that the [JNUC 2014 videos have been released][jnuc], I've embedded the video from JAMF Software.
 
-{% video featured wide http://resources.jamfsoftware.com/_images/sized/JNUC-2014-Policies-101_750_422_84_1414611334.jpeg http://resources.jamfsoftware.com/videos/JNUC-2014-Policies-101.mp4 750px 422px %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/Uhbb3xi8Bdc" frameborder="0"> </iframe>
 
 [pdf]: /images/2014/10/21/JNUC%202014%20Policies%20101.pdf
 [key]: /images/2014/10/21/JNUC%202014%20Policies%20101.2014-10-17.key.zip

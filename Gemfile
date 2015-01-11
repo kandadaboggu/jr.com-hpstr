@@ -10,5 +10,4 @@ group :jekyll_plugins do
 	gem "octopress-image-tag"
 	gem "octopress-codeblock"
 	gem "octopress-quote-tag"
-	gem "octopress-video-tag"
 end
