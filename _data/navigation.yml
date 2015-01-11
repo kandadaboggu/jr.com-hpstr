@@ -1,7 +1,7 @@
 # Menu navigation links
 
-- title: Theme Setup
-  url: /theme-setup/
+- title: Bio
+  url: /bio/
 
-- title: External Link
-  url: http://mademistakes.com
+- title: Resume
+  url: /resume/
