@@ -4,7 +4,10 @@ title: {{ title }}
 modified:
 categories: {{ dir }}
 description:
-tags: []
+tags:
+-	Apple
+-	Casper
+-	OSX
 image:
   feature:
   credit:
