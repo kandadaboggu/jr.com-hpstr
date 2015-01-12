@@ -10,9 +10,9 @@ tags:
 comments: true
 published: true
 image:
-  feature: abstract-4.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+  feature:
+  credit:
+  creditlink:
 ---
 ### XProtectWatch 1.1.0 (now with terminal-notifier support) ###
 ![XProtectWatch]({{ site.url }}/images/2013/03/22/XProtectWatch-Notification.png)

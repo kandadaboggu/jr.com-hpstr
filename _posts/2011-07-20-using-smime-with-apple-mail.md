@@ -14,9 +14,9 @@ tags:
   - smime
 comments: true
 image:
-  feature: abstract-4.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+  feature:
+  credit:
+  creditlink:
 ---
 Most likely you have already figured out how to use your new email certificate in Mail as my article on [How to get a free S/MIME Certificate][freeSMIME] was posted almost a month ago.
 

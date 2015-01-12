@@ -10,9 +10,9 @@ tags:
 comments: true
 published: true
 image:
-  feature: abstract-4.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+  feature:
+  credit:
+  creditlink:
 ---
 Last Friday I was feeling a little jealous of the San Francisco area Mac Admin's group [Macbrained][macbrained] on getting a group of individuals together to discuss new items in the Apple world (Mavericks and iOS7).  I know many Mac Admin's in the DC Metro area and believe that a DC group would thrive!  I was venting my frustrations to [@natewalck][nate] on [##osx-server][irc] of which he replied: "make one!".  Tom happened to be in the channel as well... and in about 10 minutes we purchased a domain, established email accounts, and created a twitter user for future broadcasts.
 

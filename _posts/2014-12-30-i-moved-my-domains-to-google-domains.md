@@ -8,9 +8,9 @@ tags:
 comments: true
 published: true
 image:
-  feature: abstract-4.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+  feature:
+  credit:
+  creditlink:
 ---
 OK, that title is COMPLETELY intended for click bait. I just think it's funny how "online news sites" use this to get people to click on things.
 

@@ -12,9 +12,9 @@ tags:
   - XProtect
 comments: true
 image:
-  feature: abstract-4.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+  feature:
+  credit:
+  creditlink:
 ---
 Today, [Intego announced of a new trojan designed for the Mac][DevilRobber] dubbed "DevilRobber".
 

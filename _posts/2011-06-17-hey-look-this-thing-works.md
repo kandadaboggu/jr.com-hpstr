@@ -14,9 +14,9 @@ tags:
   - OSXS
 comments: true
 image:
-  feature: abstract-4.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+  feature:
+  credit:
+  creditlink:
 ---
 I have had intensions for some time on using my site for something other than announcements of Macworld/MacTech sessions, photographs while traveling for my job, and a simple resume placeholder. Now that WWDC 2011 is over and Apple has announced that Lion will be released in July with iOS 5 coming "this fallƒ", it seems the perfect time to start sharing knowledge with anyone who cares (my guess a total of five... maybe six people). **Note:** I will not violate my NDA with Apple. I know there are plenty of other technical (and rumor) sites that are going to be first in releasing information of what is new or "how to" articles, but that is their choice... and that blatant disregard of an agreement is not for me.
 

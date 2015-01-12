@@ -11,9 +11,9 @@ tags:
   - OSXS
 comments: true
 image:
-  feature: abstract-4.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+  feature:
+  credit:
+  creditlink:
 ---
 I'll be speaking at MacTech Conference 2011 which runs November 2-4 in Los Angeles with [Randy Saeks][MacTech]!
 
