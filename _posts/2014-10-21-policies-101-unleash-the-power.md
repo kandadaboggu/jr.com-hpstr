@@ -9,9 +9,9 @@ tags:
 comments: true
 published: true
 image:
-  feature:
-  credit:
-  creditlink:
+  feature: 2014/10/21/jamf-nation-user-conference-2014.jpg
+  credit: JAMF Software
+  creditlink: http://www.jamfsoftware.com/
 ---
 
 For those who wanted a copy of my *Policies 101: Unleash the Power!* talk at JAMF Nation User Conference 2014, here are links to the slides in PDF and Keynote format.
