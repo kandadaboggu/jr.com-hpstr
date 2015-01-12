@@ -19,6 +19,13 @@
     <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}">
   </div><!-- /.entry-image -->
 </div><!-- /.entry-header -->
+{% else %}
+<div class="entry-header">
+  {% if site.image.credit %}<div class="image-credit">Image source: {% if site.image.creditlink %}<a href="{{ page.image.creditlink }}">{% endif %}{{ site.image.credit }}{% if site.image.creditlink %}</a>{% endif %}</div><!-- /.image-credit -->{% endif %}
+  <div class="entry-image">
+    <img src="{{ site.url }}/images/{{ site.image.feature }}" alt="{{ page.title }}">
+  </div><!-- /.entry-image -->
+</div><!-- /.entry-header -->
 {% endif %}
 
 <div id="main" role="main">
@@ -41,6 +48,7 @@
       </div><!-- /.header-title-wrap -->
     </header>
     <div class="entry-content">
+      {% include adsense.html %}
       {{ content }}
       <footer class="entry-meta">
         <span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tags/#{{ tag }}" title="Pages tagged {{ tag }}" class="tag">{{ tag }}</a>{% unless forloop.last %}{% endunless %}{% endfor %}</span>
