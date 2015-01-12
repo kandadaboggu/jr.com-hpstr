@@ -7,9 +7,9 @@ description:
 tags:
  - Octopress
 image:
-  feature:
-  credit:
-  creditlink:
+  feature: 2015/01/11/Octopress.jpg
+  credit: Octopress
+  creditlink: http://octopress.org
 comments: true
 share: true
 ---

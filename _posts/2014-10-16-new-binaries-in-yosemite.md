@@ -10,9 +10,9 @@ tags:
 comments: true
 published: true
 image:
-  feature:
-  credit:
-  creditlink:
+  feature: 2014/10/16/Hero-with-Clouds.jpg
+  credit: Apple, Inc
+  creditlink: http://www.apple.com
 ---
 Overview
 ---
