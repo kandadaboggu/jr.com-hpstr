@@ -9,7 +9,8 @@ tags:
  - Casper
  - OSX
 image:
-  feature:
+  feature: # 2048x512
+  thumb: # 200x200 
   credit:
   creditlink:
 comments:
