@@ -8,6 +8,7 @@ tags:
  - Octopress
 image:
   feature: 2015/01/11/Octopress.jpg
+  thumb: 2015/01/11/Octopress_thumb.png
   credit: Octopress
   creditlink: http://octopress.org
 comments: true
