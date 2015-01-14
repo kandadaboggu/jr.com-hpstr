@@ -176,7 +176,7 @@ body {
 		margin: 4px;
  		color: $white;
 		@include rounded(3px);
-+		background-color: lighten($base-color,50);
+		background-color: lighten($base-color,50);
 		span {
 			float: left;
 			padding: 2px 6px;
@@ -190,7 +190,7 @@ body {
 			@include border-radius(3px,3px,0,0);
 		}
 		&:hover {
-+			background-color: lighten($base-color,40);
+			background-color: lighten($base-color,40);
 		}
 	}
 	.entry-reading-time {
