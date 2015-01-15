@@ -80,3 +80,15 @@ kramdown:
 
 include: [".htaccess", "robots.txt", "atom.xml"]
 exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+
+# Default extensions.  Placing here b/c the "octopress new draft is not looking for the file extension in _octopress.yml"
+post_ext: md
+page_ext: md
+
+# Found in _templates/
+draft_template: post
+post_layout: post
+page_layout: page
+
+# Format titles with titlecase?
+titlecase: true
