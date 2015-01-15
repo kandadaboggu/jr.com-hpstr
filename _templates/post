@@ -3,7 +3,7 @@ layout: {{ layout }}
 title: {{ title }}
 modified:
 categories: {{ dir }}
-description: # for Twitter.  Not the Title
+description: "blah, blah, blah" # for Twitter.  Not the Title
 tags:
  - Apple
  - Casper
@@ -11,8 +11,8 @@ tags:
 image:
   feature: # 2048x512
   thumb: # 200x200 # for Twitter
-  credit:
-  creditlink:
-comments:
-share:
+  credit: 
+  creditlink: 
+comments: true
+share: true
 ---
