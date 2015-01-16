@@ -14,7 +14,7 @@ image:
 comments: true
 share: true
 ---
-I've been using [Octopress 2 since February of 2013](/octotransfigurator-inator-migrating-from-wordpress/) and I've learned a little about ruby (not that I've programed any), updated my knowledge about current website frameworks, and have seen what it takes to maintain an open-source project that is actually popular.
+I've been using [Octopress 2 since February of 2013]({{ site.url }}/octotransfigurator-inator-migrating-from-wordpress/) and I've learned a little about ruby (not that I've programed any), updated my knowledge about current website frameworks, and have seen what it takes to maintain an open-source project that is actually popular.
 
 In case you didn't know, Octopress is getting ready for a [major update to version 3][octo3].  This article is somewhat premature as there is no release date ("It's ready when it's ready!"), but with that said I believe the team is getting close! So now the big question... how do I move my current site to the new Octopress 3? 
 

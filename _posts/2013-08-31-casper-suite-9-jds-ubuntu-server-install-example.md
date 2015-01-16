@@ -17,7 +17,7 @@ image:
 ---
 ## Overview
 
-In the last article [Casper Suite 9: Cloud and JDS Distribution Points][casper-suite-9-cloud-and-jds-distribution-points] I gave you information about things to take into consideration before installing a JAMF Distribution Server (JDS) into your Casper Suite 9 environment.  In this article I'll take you through an example install of a JDS in Ubuntu.
+In the last article [Casper Suite 9: Cloud and JDS Distribution Points]({{ site.url }}/casper-suite-9-cloud-and-jds-distribution-points) I gave you information about things to take into consideration before installing a JAMF Distribution Server (JDS) into your Casper Suite 9 environment.  In this article I'll take you through an example install of a JDS in Ubuntu.
 
 ### JAMF Distribution Server (JDS) Install
 
@@ -43,7 +43,7 @@ Once your VM is running (with proper networking, DNS, hostname), copy JAMF's JDS
 There you go!  I did this twice (JDS1 and JDS2) and now my JSS reports both distribution points.
 
 <figure>
-<a href="/images/2013/08/31/JDS.png"><img src="/images/2013/08/31/JDS_480.png" alt="JDS installed on JSS screenshot" title="JDS installed on JSS screenshot" /></a>
+<a href="{{ site.url }}/images/2013/08/31/JDS.png"><img src="{{ site.url }}/images/2013/08/31/JDS_480.png" alt="JDS installed on JSS screenshot" title="JDS installed on JSS screenshot" /></a>
 </figure>
 
 ## Summary
@@ -82,6 +82,5 @@ If you really want to go digging, once your run the script and are prompted for 
 [1]: #fn1-2012-08-31
 [2]: #fn2-2012-08-31
 
-[casper-suite-9-cloud-and-jds-distribution-points]: /casper-suite-9-cloud-and-jds-distribution-points
 [ubuntu12.04]: http://www.ubuntu.com/download/server
 [339]: https://jamfnation.jamfsoftware.com/article.html?id=339
