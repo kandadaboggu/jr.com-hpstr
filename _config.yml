@@ -1,4 +1,5 @@
 title:            Justin Rummel . com
+author:             Justin Rummel # for Octopress Feed gem
 description:      Professional Bio/Resume site for Justin Rummel
 disqus_shortname: justinrummel
 reading_time:     false
@@ -6,7 +7,7 @@ words_per_minute: 200
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 # or https://www.justinrummel.com
-url:              https://www.justinrummel.com
+url:              http://localhost:4000
 
 # Owner/author information
 owner:
@@ -86,9 +87,13 @@ post_ext: md
 page_ext: md
 
 # Found in _templates/
-draft_template: post
 post_layout: post
 page_layout: page
 
 # Format titles with titlecase?
 titlecase: true
+
+# Change default template file (in _templates/)
+post_template: post
+page_template: page
+draft_template: post
