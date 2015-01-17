@@ -16,7 +16,7 @@ image:
   creditlink:
 ---
 File Sharing
-------------
+---
 In terms of File Sharing, there is really nothing different from Lion to Mt Lion. There is a bonus for iOS users in EDU in that you can now create a WebDAV "DropBox" for students submitting their assignments. Follow [this kbase for setting up DropBox shares][PH8034] and you will soon be able to have students store their assignments on your server.
 
 [PH8034]: http://support.apple.com/kb/PH8034
@@ -34,7 +34,7 @@ FTP has returned! Actually, returning doesn’t really deserve an exclamation po
 ![4-mtl-dropbox][4-mtl-dropbox]
 
 Footnotes
----------
+---
 *   For what ever reason Apple took FTP out of Server Admin and did not provide users with a replacement. There are may ways to re-enable in Lion, but now as of Mt Lion we have a full port of the Server Admin features (which wasn’t really much to begin with).
 
 [1-mtl-dropbox]: /images/2012/07/1-mtl-dropbox.png

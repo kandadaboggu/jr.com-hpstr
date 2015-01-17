@@ -15,7 +15,7 @@ image:
   creditlink:
 ---
 Background
-----------
+---
 Confession, I FORCED my wife to be a "switcher".  Yes, I forced her to start using OS X, because Christmas 2012 I purchased a new laptop for her at her request (she didn't specify a brand... and um... yeah... I'm not buying a PC).  This may come to a shock for some people as:
 
 *	Using a Macintosh has been my primary choice since 1995 when I was a Music Major at Ball State University.
@@ -28,7 +28,7 @@ I'm now the 24/hr Apple helpdesk **and** the target of "*why does Apple do this*
 First up, Screen Shots
 
 Issue
------
+---
 Screen Shots is a interesting item, because Mac users really despise most Windows users solution to screen shots which is "**embed a picture into a word document**".  Note to all Windows users, this is WRONG (send the picture, not a word document with a picture).  To better understand why this perdicament exists, lets disect the difference between the two platforms between the "Screen Shot Capturing" user's perspective vs. the end recipient:
 
 ### Windows Users ###
@@ -50,7 +50,7 @@ Okay, you probably already know the ol' Command-Shift-3 shortcut for taking a sc
 "just use the ol' Command-Shift-4 w/ a spacebar", that is what makes things difficult for a switcher.
 
 Solutions
----------
+---
 There are a couple of solutions for a Switcher, it just depends on what they want to perform:
 
 ![Grab Screen Caputre Options]({{ site.url }}/images/2013/02/24/Grab-ScreenCapture.png)

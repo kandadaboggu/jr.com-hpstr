@@ -21,7 +21,7 @@ image:
   creditlink:
 ---
 Thursday January 31, 2013 11:55am – 12:40pm
--------------------------------------------
+---
 
 ### Discussion Topic
 With the release of OS X Mountain Lion 10.8, Apple has introduced new elements that allow its users to better control the security (and privacy) of their favorite operating system. As System Administrators, new challenges have emerged to ensure the environment that we manage is safe and secure, plus have the ability to document our efforts.

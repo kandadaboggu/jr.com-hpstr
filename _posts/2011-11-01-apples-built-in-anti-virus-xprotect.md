@@ -51,5 +51,5 @@ $ cat /System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/XProtect.
 {% endhighlight %}
 
 ### Update
-----------
+---
 XProtect.plist file has been updated as of Nov 1st, 2011, and if you grep for "Devil" you will get a response of "OSX.DevilRobber.A". Pretty quick (and automatically done) as the announcement was on Nov 1st.

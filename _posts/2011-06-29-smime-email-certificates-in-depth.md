@@ -20,14 +20,14 @@ image:
   creditlink:
 ---
 Overview
---------
+---
 We have discussed the basics of S/MIME in my post [What Is S/MIME Email and Why Should I Be Using It][whatWhy], and from the last article [Acquiring a S/MIME Certificate for Free][freeCert] you should have your S/MIME certificate installed. Now lets get into some more technical aspects of S/MIME.
 
 [whatWhy]: /what-is-smime-email-and-why-should-i-be-using-it/
 [freeCert]: /acquiring-a-smime-certificate-for-free/
 
 A Certificate, is a Certificate, is a Certificate
--------------------------------------------------
+---
 A S/MIME certificate can be store several different ways (see Apple's kbase [About certificate formats][aboutCert]), but you will usually deal with .pem or .cer file for your public key, or a p12 file that contains both your Public and Private Keys. We can get our certificates by one of two ways:
 
 [aboutCert]: http://docs.info.apple.com/article.html?path=Mac/10.6/en/15177.html
@@ -36,7 +36,7 @@ A S/MIME certificate can be store several different ways (see Apple's kbase [Abo
 *	Export using the security command
 
 Private Keys
-------------
+---
 ![Certificate]({{ site.url }}/images/2011/06/certificate.png)
 {: .image-left}
 
@@ -68,7 +68,7 @@ If you want to see your expired certificates, the easist way to do this is open 
 When you look at your myPublicCert.pem certificate through a text editor, it comes back with 30 or so lines with complete gibberish starting with "BEGIN CERTIFICATE" and ending with "END CERTIFICATE". For Example:
 
 {% codeblock %}
------BEGIN CERTIFICATE-----
+---BEGIN CERTIFICATE---
 MIIFJjCCBA6gAwIBAgIRAPQyFuvXTYP/N2gOhG540kUwDQYJKoZIhvcNAQEFBQAw
 gZMxCzAJBgNVBAYTAkdCMRswGQYDVQQIExJHcmVhdGVyIE1hbmNoZXN0ZXIxEDAO
 BgNVBAcTB1NhbGZvcmQxGjAYBgNVBAoTEUNPTU9ETyBDQSBMaW1pdGVkMTkwNwYD
@@ -97,7 +97,7 @@ PBiivMf4OeG1AMx4WbhIst3NAcA/5Z2X2g7DuRKw/yMgHkfE/l9NHdeAXNQcnbkG
 YuNBLLKDTMGPfqFJ0z4rz/YcVKdB3t0xO+RK0z0olahEUh/04ImCiRZOZ2B/G4g7
 uwGEEkyiDWpA6gmWhej0HmBi6kFDuzxVsLDsEtwASiTw7HylhBx6ntMlWuLh9zVj
 XEHpIjv25NNgLXMtlk95TgAaFE6M/Fm1vqs=
------END CERTIFICATE-----
+---END CERTIFICATE---
 {% endcodeblock %}
 *(my real <j@justinrummel.com> public email certificate)*
 
@@ -186,7 +186,7 @@ Certificate:
         3b:f6:e4:d3:60:2d:73:2d:96:4f:79:4e:00:1a:14:4e:8c:fc:
         59:b5:be:ab
 SHA1 Fingerprint=7C:E2:A0:0F:11:FC:4F:83:9D:05:26:C2:7D:75:FD:4A:2C:58:F8:23
------BEGIN CERTIFICATE-----
+---BEGIN CERTIFICATE---
 MIIFJjCCBA6gAwIBAgIRAPQyFuvXTYP/N2gOhG540kUwDQYJKoZIhvcNAQEFBQAw
 gZMxCzAJBgNVBAYTAkdCMRswGQYDVQQIExJHcmVhdGVyIE1hbmNoZXN0ZXIxEDAO
 BgNVBAcTB1NhbGZvcmQxGjAYBgNVBAoTEUNPTU9ETyBDQSBMaW1pdGVkMTkwNwYD
@@ -215,13 +215,13 @@ PBiivMf4OeG1AMx4WbhIst3NAcA/5Z2X2g7DuRKw/yMgHkfE/l9NHdeAXNQcnbkG
 YuNBLLKDTMGPfqFJ0z4rz/YcVKdB3t0xO+RK0z0olahEUh/04ImCiRZOZ2B/G4g7
 uwGEEkyiDWpA6gmWhej0HmBi6kFDuzxVsLDsEtwASiTw7HylhBx6ntMlWuLh9zVj
 XEHpIjv25NNgLXMtlk95TgAaFE6M/Fm1vqs=
------END CERTIFICATE-----
+---END CERTIFICATE---
 {% endcodeblock %}
 
 We can now see that the entity who issued my certificate (The "third party") is "COMODO CA Limited". My certification is valid until Jun 16 23:59:59 2012. This is a little easier to comprehend, and it also lets us know that this is a certificate specific for the email address <j@justinrummel.com>.
 
 Private Keys
-------------
+---
 To export your public and private keys for backup purposes (remember... you do not want to lose this information or else you will never be able to open old emails), you can do this one of two ways Keychain Access or use the security command.
 
 For Keychain Access you want to be sure you select the Category "My Certificates" section on the bottom left hand side of your Keychain Access window. This shortens you list of possible items you would want to export, while still having the option to select your Public and Private keys. Find your email address and click on the disclosure triangle and select both the certificate and the private key (icon looks like a key... how appropriate). You will now need to select File => Export Items (or Ctrl Click the certificates), and save the two items as one .p12 file. Once you click on OK, you will be prompted for a password. This is to ensure your private key is now encrypted using this password as part of the export algorithm. You may also be requested to "Allow" access to your Login Keychain.
@@ -252,7 +252,7 @@ $ security import ~/Desktop/myCerts.p12 -f pkcs12 -k ~/Desktop/test.keychain
 {% endhighlight %}
 
 Footnotes
----------
+---
 1.  The integrity of a single certificate file can be verified by:
 
 {% highlight bash %}

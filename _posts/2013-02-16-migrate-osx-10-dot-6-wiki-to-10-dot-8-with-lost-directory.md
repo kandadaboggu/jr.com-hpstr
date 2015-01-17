@@ -17,7 +17,7 @@ image:
 This title is very specific and may not be everyone's exact scenario, however, there was plenty of beneficial items in my latest exercise with Wiki data on OS X; specifically taking old 10.6 Wiki data and putting it on a new server in which the Directory information was lost.
 
 Overview
---------
+---
 I happened to have Wiki data from a 10.6.8 server that was saved by a simple backup routine instead of using Time Machine backups.	 "No Time Machine backup?" you ask.	This was because this was 10.6 Server! Remember, Time Machine couldn't stop Open Directory, so back then backups were "on the ODM, use this 'export' script", and "rsync or use some other backup tool to save your data".  In 10.6 the Wiki data was saved in /Library/Collaboration so it made backup of the data very simple.
 
 The environment that I stepped into was:
@@ -33,7 +33,7 @@ So there are two things to remember when migrating Wiki data:
 What do I have to work with for this migration task?  File backup of /Library/Collaboration with the original Directory system lost targeted for a machine that cannot run 10.6 to update.  Not a problem, right.  [Apple's kbase article][HT5585] on how to migrate Wiki data from a 10.6 server to Mt Lion should work...  right?  Not really.  Depending on how you have your Wiki setup and it's permissions (who owns the data vs.	who has read and/or write capabilities) some of the Wiki groups will not come over.
 
 Final Workflow
---------------
+---
 What I have done several times is migrate 10.6 Wiki to a new 10.6 Wiki server because I can always strip the permissions data by doing the following steps.
 
 ### 10.6 Server Wiki to 10.6 server ###
@@ -76,7 +76,7 @@ Final solution?  Thank goodness Apple updated their [Kerberos][kerb] to [Heimdal
 [HT5585]: http://support.apple.com/kb/HT5585
 
 Lessons Learned
----------------
+---
 Wiki uses authentication, but simple usernames and passwords are not the limit to how Wiki is tied to the directory system.	 Wiki is now using UUID's to identify who has read/write/owner of Wiki data.  You know, this one:
 
 {% highlight bash %}

@@ -23,7 +23,7 @@ I had the interesting opportunity of installing the Casper Suite on an Amazon EC
 I'll assume that you have (or have the means of getting) an EC2 account with Amazon with the proper ports opened for security {22 (ssh), [80, 443] (http(s)), 445 (smb), 8443 (Tomcat)}.  For this installation we used an Ubuntu Server 12.04 LTS (Long Term Support) Quick Launch Configuration (which does not come with a GUI... ALL command line... just the way I like it!).
 
 Environment
-------------
+---
 
 ### JSS ###
 *	EC2 (Amazon Elastic Compute Cloud) Amazon Micro instance was sufficient to host the JSS even though it technically doesn't meet the requirements listed by JAMF in terms of RAM and CPU.  Obviously as your environment grows, so will your server resource needs.  The main point is you can get something started **VERY** cheaply.
@@ -78,7 +78,7 @@ smbpasswd -a casperadmin
 {% endhighlight %}
 
 Notes
------
+---
 
 ### Casper Remote ###
 Casper Remote will not work.  For some reason the JSS reports everyone's IP address as the public WAN ip address instead of looking at ```ipconfig getifaddr en0``` or some other sophisticated method to determine the IP address of a machine during the "every15" trigger. This information could be collected as an Extension Attribute, but Casper Remote won't read this data for remote actions (such as pushing Application Packages and/or VNC services).

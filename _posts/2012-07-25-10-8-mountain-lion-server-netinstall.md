@@ -15,7 +15,7 @@ image:
   creditlink:
 ---
 Overview
---------
+---
 From a pure functional standpoint, I don’t see any major difference between what is available in prior versions of OS X Server in terms of NetBoot service to the Mt Lion version; other than it is now “NetInstall”.
 
 There are some minor changes such any mention to support OS9 has been removed, and you cannot set the log level via the GUI. If you really need to increase the log level for NetInstall, run the following command: 
@@ -25,7 +25,7 @@ $ sudo serveradmin settings netboot:logging_level = HIGH
 {% endhighlight %}
 
 NetInstall Configuration Settings
----------------------------------
+---
 From the first Image you can see we have the options to select an interface to provide our NetInstall service. This will always be an Ethernet unless you enjoy a slow painful death of being attacked by a [swarm of bees][HT1865]. You can also filter by Mac Address on the primary page (machine model filtering is possible, just not on the first tab).
 
 [HT1865]: http://support.apple.com/kb/HT1865

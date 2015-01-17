@@ -1,6 +1,7 @@
 ---
 title: 'Macworld 2011 - IT873: Storage and Backup Solutions on Todays Budget'
 author: Justin Rummel
+date: 2011-01-18
 layout: post
 permalink: /macworld-2011-it873-storage-backup-solutions-on-todays-budget/
 shorturl:
@@ -16,7 +17,7 @@ image:
   creditlink:
 ---
 January 29, 2011 (1:00 PM – 2:30 PM)
-------------------------------------
+---
 
 ### Discussion Topic
 This session we will be discussing different types of storage solutions for low budget firms to assist in data transfer and/or backup of personal data. Storage solutions will range from USB Thumb Drives, External USB Drives, DAS modules such as Drobo and Promise SmartStor, Cloud storage, and finally the basics of Fibre Channel DAS. Backup Software for low budgets will include Apple's built-in Time Machine to other third party software.

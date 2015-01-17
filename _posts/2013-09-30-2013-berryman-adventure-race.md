@@ -39,7 +39,7 @@ List of in order of time to the best of my memory:
 It was great to finish.  However the downpour at 4pm really put a damper on the spirits and at that time the goal shifted to "just finish the race" vs. catching more checkpoints.  Maybe I should looking into doing a [Half Ironman][ironman] now that I know I can take an entire day of physical (and mental) punishment.
 
 **UPDATE 2013-10-02**
----------------------
+---
 I just remembered a couple of items that I did learn from my first race that I wanted to write down so I can review for next year:
 
 -	In-addition to some waterproof socks, if you want to do ANY night work get a decent front headlight on your bike to see the roads.  Are there ones with Fog options?  Bring a hand flashlight along with the headlamp.

@@ -60,22 +60,22 @@ sadmin@auto:~$ sudo mysql -u root -p
 [sudo] password for sadmin: 
 Enter password: 
 
-mysql> use jamfsoftware
+mysql> use jamfsoftware;
 Reading table information for completion of table and column names
 You can turn off this feature to get a quicker startup with -A
 
 Database changed
 mysql> select computer_name, computer_id, apn_token from computers;
-+---------------------------+-------------+-------------------------------------------------------------------------+
-| computer_name             | computer_id | apn_token                                                               |
-+---------------------------+-------------+-------------------------------------------------------------------------+
-| osxs1                     |           2 | at3cspak ts6mneko ob5gosst sag2poow nug1tyda lee4bluu aro3ogty hep5erbj |
-| osxs2                     |           3 | ax8cucai zag8splr te6pijig en0pykvi hy9avkha yi7ergrb nem5splo of5efkis |
-| mo                        |           4 | jaz5jori sw7rhtic qu7mesgi mug4paia el6boosu pol8lecd av2pieok sv6ursqg |
-| nemo                      |          15 | mi7iaknr tom7idoo log5hyad upl1agrr ol0olsib lea3hitb gyp8tenr sk6lamjo |
-| Lion                      |          13 |                                                                         |
-| Composer                  |          16 |                                                                         |
-+---------------------------+-------------+-------------------------------------------------------------------------+
++----------------------+-------------+-------------------------------------------------------------------------+
+| computer_name        | computer_id | apn_token                                                               |
++----------------------+-------------+-------------------------------------------------------------------------+
+| osxs1                |           2 | at3cspak ts6mneko ob5gosst sag2poow nug1tyda lee4bluu aro3ogty hep5erbj |
+| osxs2                |           3 | ax8cucai zag8splr te6pijig en0pykvi hy9avkha yi7ergrb nem5splo of5efkis |
+| mo                   |           4 | jaz5jori sw7rhtic qu7mesgi mug4paia el6boosu pol8lecd av2pieok sv6ursqg |
+| nemo                 |          15 | mi7iaknr tom7idoo log5hyad upl1agrr ol0olsib lea3hitb gyp8tenr sk6lamjo |
+| Lion                 |          13 |                                                                         |
+| Composer             |          16 |                                                                         |
++----------------------+-------------+-------------------------------------------------------------------------+
 6 rows in set (0.00 sec)
 
 mysql> 
