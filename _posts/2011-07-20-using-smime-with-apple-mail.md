@@ -7,11 +7,12 @@ shorturl:
   - http://j.mp/qnJpvQ
 tags: 
   - Apple
-  - certificates
+  - Certificates
   - Lion
   - OSX
   - OSXS
-  - smime
+  - S/MIME
+  - Mail
 comments: true
 image:
   feature:

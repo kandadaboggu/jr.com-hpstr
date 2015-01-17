@@ -7,7 +7,6 @@ shorturl:
   - http://j.mp/SAPNEh
 tags: 
   - MacIT
-  - Macworld
   - Mt Lion
   - OSXS
 comments: true

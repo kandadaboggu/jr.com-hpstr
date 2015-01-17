@@ -4,8 +4,8 @@ title: 'Macworld 2009 Pictures'
 date: 2009-12-01
 tags:
   - Apple
-  - Macworld
   - Photography
+  - MacIT
 image:
   feature: 2009/01/05/4152178346_52ebb5e910_b.jpg
   credit: Justin Rummel

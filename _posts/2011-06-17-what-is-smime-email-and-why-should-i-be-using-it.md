@@ -8,12 +8,13 @@ shorturl:
   - http://j.mp/q3IL8U
 tags: 
   - Apple
-  - certificates
+  - Certificates
   - iOS
   - Lion
   - OSX
   - OSXS
-  - smime
+  - S/MIME
+  - Mail
 comments: true
 image:
   feature:

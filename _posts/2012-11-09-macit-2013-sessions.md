@@ -7,7 +7,6 @@ shorturl:
   - http://j.mp/SASMwp
 tags: 
   - MacIT
-  - Macworld
   - OSXS
 comments: true
 image:

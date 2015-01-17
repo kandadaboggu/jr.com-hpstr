@@ -7,7 +7,6 @@ shorturl:
   - http://j.mp/SAQ1Ly
 tags: 
   - MacIT
-  - Macworld
   - Mt Lion
   - OSXS
   - XProtect

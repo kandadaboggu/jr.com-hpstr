@@ -3,13 +3,10 @@ title: 'Macworld 2011 - IT873: Storage and Backup Solutions on Todays Budget'
 author: Justin Rummel
 date: 2011-01-18
 layout: post
-permalink: /macworld-2011-it873-storage-backup-solutions-on-todays-budget/
-shorturl:
-  - http://bit.ly/gEA3xi
 tags: 
   - Apple
   - Backups
-  - Macworld
+  - MacIT
 comments: true
 image:
   feature:

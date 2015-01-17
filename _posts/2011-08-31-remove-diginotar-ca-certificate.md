@@ -7,7 +7,7 @@ shorturl:
   - http://j.mp/nOeJ56
 tags: 
   - Apple
-  - certificates
+  - Certificates
   - Lion
   - OSX
   - OSXS

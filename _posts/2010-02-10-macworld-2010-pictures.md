@@ -4,8 +4,8 @@ title: 'Macworld 2010 Pictures'
 date: 2010-02-10
 tags:
   - Apple
-  - Macworld
   - Photography
+  - MacIT
 image:
   feature: 2010/02/11/4352535084_3bb91f7794_o.jpg
   credit: Justin Rummel

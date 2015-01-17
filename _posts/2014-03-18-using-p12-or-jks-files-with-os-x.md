@@ -9,6 +9,7 @@ tags:
  - JAMF
  - OSXS
  - CrashPlan
+ - Certificates
 comments: true
 published: true
 image:
