@@ -10,7 +10,6 @@ image:
   feature: 2010/11/05/5148714214_060631dd0b_b.jpg
   credit: Justin Rummel
   creditlink: https://www.flickr.com/photos/justinrummel/5148714214/
-modified: 2010-11-05
 comments: true
 share: true
 ---
