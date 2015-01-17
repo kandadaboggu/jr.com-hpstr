@@ -5,7 +5,7 @@ layout: post
 date: 2013-07-18 16:21
 tags: 
  - Apple
- - Casper
+ - Casper Suite
  - JAMF
  - APNS
 comments: true

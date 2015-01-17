@@ -9,7 +9,7 @@ tags:
  - Amazon
  - JSS
  - EC2
- - Ubuntu
+ - Ubuntu Server
  - Linux
 comments: true
 published: true
