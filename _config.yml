@@ -14,7 +14,7 @@ owner:
   name:           Justin Rummel
   avatar:         me2-small.jpg
   bio:            "Professional Bio/Resume site for Justin Rummel"
-  email:          justin@rummel.co
+  email:          
   # Social networking links used in footer. Update and remove as you like.
   twitter:        justinrummel
   facebook:       
@@ -24,9 +24,8 @@ owner:
   instagram:      
   flickr:         
   tumblr:         
-  # For Google Authorship https://plus.google.com/authorship
-  # google plus id, include the '+', eg +mmistakes
   google_plus:    +JustinRummel-co
+  rss:            feeds.feedburner.com/jr
 
 # Background image to be tiled on all pages
 background: 
@@ -41,7 +40,7 @@ image:
 google_analytics:   UA-41781912-1
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         E42486DBEE0F303BBCF3A32B7FBA75A1
+bing_verify:        
 
 # Google Adsense in adsense.html section
 ad-client: ca-pub-9983565238165896
