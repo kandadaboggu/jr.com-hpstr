@@ -11,4 +11,5 @@ group :jekyll_plugins do
 	gem "octopress-quote-tag"
 	gem 'octopress-feeds'
 #	gem 'octopress-minify-html'
+	gem 'flickraw'
 end
