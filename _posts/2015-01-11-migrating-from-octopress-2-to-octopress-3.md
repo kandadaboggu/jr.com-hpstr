@@ -58,7 +58,7 @@ I did a clean install of Octopress 3 and migrated my posts a couple of times, to
 [octo3]: https://github.com/octopress/octopress
 [basic-usage]: https://github.com/octopress/octopress#basic-usage
 [1]: #fn1-2015-01-11
-[Gemfile]: https://github.com/justinrummel/jr.com-octo3/commits/master/Gemfile
+[Gemfile]: https://github.com/justinrummel/jr.com-hpstr/commits/master/Gemfile
 
 ## Footnotes
 
