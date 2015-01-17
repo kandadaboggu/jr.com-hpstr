@@ -13,10 +13,10 @@ image:
 comments: true
 share: true
 ---
-<figure>
+<!-- Not needed now has feature image above takes care of highlight an image -->
+<!-- <figure>
 <a href="https://www.flickr.com/photos/justinrummel/4152178346/"><img src="http://farm3.static.flickr.com/2688/4152178346_52ebb5e910_b.jpg" title="20090105-Macworld_Day_1-003" /></a>
-</figure>
-
+</figure> -->
 Here are some of the pictures that I took during Macworld 2009.
 
 ### Day 2

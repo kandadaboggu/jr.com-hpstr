@@ -7,9 +7,9 @@ tags:
   - Macworld
   - Podcast Producer
 image:
-  feature: abstract-4.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+  feature: 
+  credit: 
+  creditlink: 
 comments: true
 ---
 Feb. 12, 2010    1:00 PM – 2:30 PM
