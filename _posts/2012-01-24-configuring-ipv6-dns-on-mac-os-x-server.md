@@ -19,7 +19,7 @@ image:
 ---
 What are you bitching about and IPv6?
 ---
-Over the past several months, my company has been dealing with AD/OD integrations with Lion 10.7.2 and the customer's environment is using ".local". If you are not familiar with the history between ".local" and Apple computers simply put: they don't mix. PERIOD. It all stems from Apple OS X Clients using the naming convention of "ComputerName.local" as its address for Bonjour services. When an Active Directory (AD) environment uses something like "company.local", Lion doesn't know if you are talking DNS or Bonjour… so it just tries everything, thus giving you delayed authentication (login) against your AD controllers.
+Over the past several months, my company has been dealing with AD/OD integrations with Lion 10.7.2 and the customer's environment is using ".local". If you are not familiar with the history between ".local" and Apple computers simply put: they don't mix. PERIOD. It all stems from Apple OS X Clients using the naming convention of "ComputerName.local" as its address for Bonjour services. When an Active Directory (AD) environment uses something like "company.local", Lion doesn't know if you are talking DNS or Bonjour... so it just tries everything, thus giving you delayed authentication (login) against your AD controllers.
 
 With the release of OS X Lion, Apple stepped up the complexity notch and introduced IPv6 in its broadcast for resolving names, thus now you have four sets of timeouts to compete with:
 
@@ -28,11 +28,11 @@ With the release of OS X Lion, Apple stepped up the complexity notch and introdu
 3.	IPv6 DNS
 4.	IPv6 Bonjour
 
-Normally, if we can't get DNS working from the customer on their Windows AD domain controller, we'll utilize Apple's DNS service to place GOOD values until the customer can work out the "fun" of Windows DNS (hint, the more domains and the more domain controllers… it seems difficult in keeping records versus AD replication making things automagically disappear). One issue, Server Admin doesn't allow for creating IPv6 records (a.k.a AAAA records) so we're going to crank these out by hand!
+Normally, if we can't get DNS working from the customer on their Windows AD domain controller, we'll utilize Apple's DNS service to place GOOD values until the customer can work out the "fun" of Windows DNS (hint, the more domains and the more domain controllers... it seems difficult in keeping records versus AD replication making things automagically disappear). One issue, Server Admin doesn't allow for creating IPv6 records (a.k.a AAAA records) so we're going to crank these out by hand!
 
 Configuring Mac OS X DNS for IPv6 Records
 ---
-Before we go any farther, I'm warning you now… modifying BIND configuration files by hand could will cause you grief later. You have just committed yourself to the rest of your life on hand modification of DNS records because once you start using Server Admin again… it may (and most likely) remove anything it doesn't understand. That's the joys of Apple's Server Admin tool.
+Before we go any farther, I'm warning you now... modifying BIND configuration files by hand could will cause you grief later. You have just committed yourself to the rest of your life on hand modification of DNS records because once you start using Server Admin again... it may (and most likely) remove anything it doesn't understand. That's the joys of Apple's Server Admin tool.
 
 If you have never looked at creating and/or adjusting BIND records on an Apple Server, I would first HIGHLY recommend you pick up a copy of Ed Marczak's [Mac OS X Advanced System Administration v10.5][advance10.5]. It explains a lot about DNS and configuring BIND from command line starting at page 89 – 104. I'm not going to over the intricacies, I'm going for the dirty nibbles of IPv6 and what files you will adjust or create.
 

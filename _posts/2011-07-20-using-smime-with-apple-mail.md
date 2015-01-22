@@ -34,6 +34,6 @@ You should now see two icons on the right hand side of your messages. On a new m
 
 [what]: /what-is-smime-email-and-why-should-i-be-using-it/
 
-A sample email exchange could be shown as below (Sorry for the multiple “Justin Rummel” address… one is for work and one is my personal account):
+A sample email exchange could be shown as below (Sorry for the multiple “Justin Rummel” address... one is for work and one is my personal account):
 
 ![emailEx]({{ site.url }}/images/2011/07/email-examples.png)

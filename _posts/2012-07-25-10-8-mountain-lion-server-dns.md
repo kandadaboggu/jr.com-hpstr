@@ -24,7 +24,7 @@ There is no faster way to make things difficult for OS X (and OS X Server) than 
 
 DNS Setup
 ---
-Your window of Server.app may vary from the images below, but in the end we should have somewhat the same settings. First thing is to make sure that you have Server.app up and running. Yes, you read that correctly… Server.app. At first you might fight this, but most of the features of running a DNS server are available, plus some added love for IPv6!
+Your window of Server.app may vary from the images below, but in the end we should have somewhat the same settings. First thing is to make sure that you have Server.app up and running. Yes, you read that correctly... Server.app. At first you might fight this, but most of the features of running a DNS server are available, plus some added love for IPv6!
 
 ![1-mtl-DNS]({{ site.url }}/images/2012/07/1-mtl-DNS.png)
 
