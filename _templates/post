@@ -3,14 +3,14 @@ layout: {{ layout }}
 title: {{ title }}
 modified:
 categories: {{ dir }}
-description: "blah, blah, blah" # for Twitter.  Not the Title
+description: "blah, blah, blah" # For Twitter, not the Title
 tags:
  - Apple
  - Casper
  - OSX
 image:
-  feature: # 2048x512
-  thumb: # 200x200 # for Twitter
+  feature: # 2048x768 for article header
+  thumb: # 400x400 for Twitter
   credit: 
   creditlink: 
 comments: true

@@ -27,7 +27,16 @@ body {
 }
 .adsbygoogle {
 	display: block;	
-	text-align:center;
+	text-align: center;
+}
+.twitter {
+	display: block;
+	width: 100%;
+	left: 50%;
+	margin-left: 0%;
+	@media #{$medium} {
+		margin-left: 10%;
+	}
 }
 
 // Entry Header
