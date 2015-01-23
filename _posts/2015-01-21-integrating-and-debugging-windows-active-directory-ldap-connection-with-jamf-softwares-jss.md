@@ -21,7 +21,7 @@ share: true
 ---
 I'm guessing you are looking at your JSS screen trying to connect an LDAP server, specifically Active Directory (AD), but things are not going well.  First of all, breath.  There have been countless times when I'm performing a JumpStart and things "just don't work" in terms of integrating the JSS and Active Directory, especially if your AD is anything beyond the standard "Next, Next, Next" installation process when it was initially setup.
 
-### Network Environment Debugging
+## Network Environment Debugging
 First, we're going to do some simple network debugging that I usually perform once I'm onsite to make sure the AD environment is providing the necessary DNS records.  I'm hosting this example environment on my laptop via VMware Fusion 7.1 Pro with: 
 
 -	one VM running Windows Server 2012 R2 as my AD and DNS server
@@ -116,7 +116,7 @@ ldapsearch -H ldap://dc01.pretend.co -b "dc=pretend,dc=co" -x -D "PRETEND\admini
 
 Here is a [link to a gist][ee1b345d578dce338b39] that shows the expected results.  You should get *some* positive looking results.  If you get an error, you have restricted AD so much that simple lookup queries are not working.  Go talk to your AD guy and find out what they have done to AD to be so cranky.
 
-### JSS LDAP Setup - Active Directory
+## JSS LDAP Setup - Active Directory
 When the Active Directory LDAP setup assistant works, it's great!  Just remember some of these tips: 
 
 -	"Hostname or IP Address" is the FQDN of a Domain Controller
@@ -140,7 +140,7 @@ When the Active Directory LDAP setup assistant works, it's great!  Just remember
 <a href="{{ site.url }}/images/2015/01/20/9-LDAP-Setup.png"><img src="{{ site.url }}/images/2015/01/20/9-LDAP-Setup_256.png" title="" /></a>
 </figure>
 
-### JSS LDAP Setup - Manual
+## JSS LDAP Setup - Manual
 Sometimes the LDAP setup assistant just doesn't work.  No matter how many ways you enter your DOMAIN and then provide authentication credentials it never gets pass the verification.  In these cases, we'll use the manual configuration method and verify our settings from the following screen shots.
 
 Key items to look for are: 

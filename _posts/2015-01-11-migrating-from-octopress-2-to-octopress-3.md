@@ -18,8 +18,7 @@ I've been using [Octopress 2 since February of 2013]({{ site.url }}/octotransfig
 
 In case you didn't know, Octopress is getting ready for a [major update to version 3][octo3].  This article is somewhat premature as there is no release date ("It's ready when it's ready!"), but with that said I believe the team is getting close! So now the big question... how do I move my current site to the new Octopress 3? 
 
-What's new
----
+## What's new
 One item that is new in Octopress 3 is more inline with adding support to Jekyll vs. replacing common commands such as "build" and "serve" to test your site so you will have to change your workflow ("rake clean; rake generate; rake preview; etc" is gone.  You can safely dump that out of your memory).  Also, the main element for octopress in generateing your framework is now separate from all the tag process that you may have used to add content to your site (e.g. img, video, blockquote, etc).
 
 ## Commands

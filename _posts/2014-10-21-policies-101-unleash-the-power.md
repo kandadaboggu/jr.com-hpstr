@@ -19,7 +19,7 @@ For those who wanted a copy of my *Policies 101: Unleash the Power!* talk at JAM
 -   PDF: [Policies 101: Unleash the Power!]({{ site.url }}/images/2014/10/21/JNUC%202014%20Policies%20101.pdf)
 -   Keynote: [Policies 101: Unleash the Power!][{{ site.url }}/images/2014/10/21/JNUC%202014%20Policies%20101.2014-10-17.key.zip]
 
-### Updated 2014-11-03
+## Updated 2014-11-03
 
 Now that the [JNUC 2014 videos have been released][jnuc], I've embedded the video from JAMF Software.
 

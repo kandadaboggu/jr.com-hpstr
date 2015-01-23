@@ -21,8 +21,7 @@ Overview
 
 Every year I like to dig a little around some default paths to see what new binaries will be available to assist in deployment or troubleshooting.  I use a simple easy script that generates a list of all the binaries in /bin, /sbin, /usr/bin, /usr/sbin, and /usr/libexec from one OS (usually 10.x.4) to a recent beta build of the upcoming OS (in this case Yosemite).
 
-New Binaries
----
+## New Binaries
 
 #### /bin
 Nothing has changed inside the /bin folder
@@ -80,8 +79,7 @@ sudo discoveryutil configinterfaces     # Current IP configurations for each int
  2. Marks the record as requiring a new password.
  You must run this while logged in as an admin, non-root user and quit all running apps before running this tool.
 
-Source script
----
+## Source script
 
 {% highlight bash %}
 #!/bin/bash

@@ -18,7 +18,7 @@ share: true
 ---
 Lately I've been doing a lot of Ubuntu Server installs for JumpStarts with their intended use to become a JSS or JDS server.  It's easy to spin up a full clone or linked clone on my laptop, but when I'm at customer's location they usually only have an ISO that was downloaded some time ago... so we're starting from scratch.  With a brand new Ubuntu Server VM, there are a few steps that you need to perform to make your life easier in the long run.
 
-### Server Setup
+## Server Setup
 On ever Ubuntu Server setup there are a couple of items that you should do first before trying to install the JDS or JSS installers.  We need the following: 
 
 -	Server FQDN (hopefully you have already populated your internal DNS with the associated IP address)
@@ -37,7 +37,7 @@ This script is available on SRT's public github repo at: [https://github.com/sto
 
 <iframe src="//player.vimeo.com/video/117528351?portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/117528351">Ubuntu Server Setup Script Demo</a></p>
 
-### VMware Tools
+## VMware Tools
 The next script makes sure that you have the proper VMware Tools installed on Ubuntu Server just in case you need to share a folder on your host computer to your Ubuntu server.  The storage point will be ```/mnt/hgfs/<<your folder name>>```.  This script will try to mount the CDROM on your VM, so be sure it is pointing to the VMware Linux Tools ISO by choosing Virtual Machine => Install VMware Tools.
 
 {% highlight bash %}
