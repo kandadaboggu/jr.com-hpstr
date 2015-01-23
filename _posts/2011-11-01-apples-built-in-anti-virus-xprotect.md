@@ -8,7 +8,7 @@ shorturl:
 tags: 
   - Apple
   - Lion
-  - cli
+  - CLI
   - XProtect
 comments: true
 image:

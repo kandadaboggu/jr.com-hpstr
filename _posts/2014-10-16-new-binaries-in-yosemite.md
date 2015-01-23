@@ -8,7 +8,7 @@ tags:
  - Apple
  - Yosemite
  - OSX
- - cli
+ - CLI
 comments: true
 published: true
 image:

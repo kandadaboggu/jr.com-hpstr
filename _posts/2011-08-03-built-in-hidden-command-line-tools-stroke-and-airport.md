@@ -7,7 +7,7 @@ shorturl:
   - http://j.mp/pao6S0
 tags: 
   - Apple
-  - cli
+  - CLI
   - Lion
   - OSX
   - OSXS
