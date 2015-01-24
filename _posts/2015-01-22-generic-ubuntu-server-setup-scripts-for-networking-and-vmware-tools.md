@@ -4,15 +4,14 @@ title: "Generic Ubuntu Server Setup Scripts for Networking and VMware Tools"
 date: 2015-01-22T16:51:37-05:00
 modified:
 categories: 
-description: "blah, blah, blah" # For Twitter, not the Title
+description: "Scripts to get your Ubuntu Server quickly up and running"
 tags:
  - Ubuntu Server
  - CLI
 image:
-  feature: # 2048x768 for article header
-  thumb: # 400x400 for Twitter
-  credit: 
-  creditlink: 
+  feature: 2015/01/22/ubuntu-logo14.png
+  credit: Ubuntu
+  creditlink: https://design.ubuntu.com/brand/ubuntu-logo
 comments: true
 share: true
 ---
