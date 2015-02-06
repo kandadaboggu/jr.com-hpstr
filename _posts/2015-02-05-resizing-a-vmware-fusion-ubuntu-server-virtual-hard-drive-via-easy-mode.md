@@ -7,7 +7,7 @@ categories:
 description: Has your VMware Fusion VM of Ubuntu Server not able to store all your data, use these steps!
 tags:
  - VMware Fusion
- - Ubuntu
+ - Ubuntu Server
 image:
   feature: 2015/02/05/gparted-live.png
   credit: GParted
