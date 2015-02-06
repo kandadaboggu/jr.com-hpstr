@@ -6,6 +6,7 @@ modified:
 categories: 
 description: "Scripts to get your Ubuntu Server quickly up and running"
 tags:
+ - VMware Fusion
  - Ubuntu Server
  - CLI
 image:
