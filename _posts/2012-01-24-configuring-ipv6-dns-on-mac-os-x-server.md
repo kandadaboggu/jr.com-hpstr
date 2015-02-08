@@ -197,5 +197,4 @@ If you have any troubles with your IPv6 values not returning, my guess there is 
 Additional Sources
 ---
 *   [IPv6 Converter](http://ipv6-literal.com/)
-*   [IPv6 Reverse DNS Zone Builder](http://www.fpsn.net/tools&tool=ipv6-inaddr)
-*   [IPv6 REVERSE ZONE BUILDER](http://captaingeek.net/ipv6-zone-builder/)
+*   [IPv6 REVERSE ZONE BUILDER](http://mike.kz/ipv6-zone-builder/)

@@ -28,7 +28,7 @@ NetInstall Configuration Settings
 ---
 From the first Image you can see we have the options to select an interface to provide our NetInstall service. This will always be an Ethernet unless you enjoy a slow painful death of being attacked by a [swarm of bees][HT1865]. You can also filter by Mac Address on the primary page (machine model filtering is possible, just not on the first tab).
 
-[HT1865]: http://support.apple.com/kb/HT1865
+[HT1865]: https://web.archive.org/web/20140105015852/http://support.apple.com/kb/HT1865
 
 ![NetInstall 1]({{ site.url }}/images/2012/07/1-mtl-netinstall.png)
 And finally, you can assign if you are storing Images, Client Data (for diskless operations), or both.

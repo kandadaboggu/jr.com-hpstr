@@ -26,9 +26,9 @@ In addition to using terminal-notifier, I've also created a ```rollBack.sh``` sc
 ### LaunchAgent shuffle ###
 Lastly, if you had downloaded these scripts before, be sure to take note that I had to move the /Library/LaunchDeamon to ~/Library/LaunchAgent in order for terminal-notifier to work.  The reason is notification that were triggered by a system process didn't forward to the current user, therefore, a user's account had to load the plist file.
 
-what does it take for all these updates?  ```git clone https://github.com/stonyrivertech/XProtectWatch.git``` 
+what does it take for all these updates?  ```git clone https://github.com/justinrummel/XProtectWatch.git``` 
 
-[XProtectWatch]: https://github.com/stonyrivertech/XProtectWatch 
+[XProtectWatch]: https://github.com/justinrummel/XProtectWatch 
 [terminal-notifier]: https://github.com/alloy/terminal-notifier 
 [dl]: https://github.com/alloy/terminal-notifier/downloads 
-[readme]: https://github.com/stonyrivertech/XProtectWatch/blob/master/README.md 
+[readme]: https://github.com/justinrummel/XProtectWatch/blob/master/README.md 

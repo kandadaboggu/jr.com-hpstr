@@ -39,12 +39,11 @@ Octopress has most of the directions you need to fire up an Octopress site on th
 
 1.	If you are using another shell other than the default bash on OSX, I hope you know what you are doing.
 
-	I have [Homebrew][brew] installed on my machine for two reasons: easy install of the "fish" shell and nmap. I REALLY like fish, but what I found is getting Ruby to work correctly on OSX and fish is difficult because the default version of Ruby on OSX is 1.8.7 and that version is too old for Octopress.  After several days of trying to make this work, I went back to the bash shell and started to use [Smyck Color Scheme][smyck] to help out with a good color scheme (I still have fish installed, just not the default shell anymore)  The site I found best suited for getting Octopress installed on OSX is on [panchoat.org][osx-octopress].  It takes you through using Homebrew to install the necessary items (Ruby, rbenv, etc) plus walks you through publishing your site for free on github.com as a GitHub page. 
+	I have [Homebrew][brew] installed on my machine for two reasons: easy install of the "fish" shell and nmap. I REALLY like fish, but what I found is getting Ruby to work correctly on OSX and fish is difficult because the default version of Ruby on OSX is 1.8.7 and that version is too old for Octopress.  After several days of trying to make this work, I went back to the bash shell and started to use [Smyck Color Scheme][smyck] to help out with a good color scheme (I still have fish installed, just not the default shell anymore)  The site I found best suited for getting Octopress installed on OSX is on <s>panchoat.org</s> (now deleted).  It takes you through using Homebrew to install the necessary items (Ruby, rbenv, etc) plus walks you through publishing your site for free on github.com as a GitHub page. 
 
 [setup]: http://octopress.org/docs/setup/
 [brew]: http://mxcl.github.com/homebrew/ 
 [smyck]: https://github.com/hukl/Smyck-Color-Scheme 
-[osx-octopress]: http://panchoat.org/blog/2012/05/26/setup-octopress-under-mac-os-x-lion/ 
 
 2.	Octopress Plugins are available, are you sure you want to use them?
 
@@ -68,7 +67,7 @@ Octopress has most of the directions you need to fire up an Octopress site on th
 	*	[Octopress Basics][basics] will provide a "how to" on starting new posts within Octopress such as making sure that categories and tags are correctly inserted in the header AND know the -three- four important rake commands: rake clean, rake generate, rake preview, rake deploy.
 	*	[Octopress Code Snippets][snippets] is a great resource on the best way to insert code (like a good Dev SysAdmin, share your knowledge)!  By inserting three 'back ticks' on one line, anything below will be formatted as code.  Items that I learned, be sure you only use three (four will produce "generate" errors) and be sure to end with three 'back ticks'.  The nice thing about this is you can also format the code for the particular language that you are using with Syntax Highlighting. Use "bash" OR "ruby" on the first line after your three 'back ticks', and your code will be formatted in that language for easy reading.  You can also embed gists from GitHub, or use "codeblock" if you need some output text just formatted differently (I used this for displaying the public SSL cert info on one of my articles).
 
-[daringfireball]: http://daringfireball.net/projects/Markdown/
+[daringfireball]: http://daringfireball.net/projects/markdown/
 [basics]: http://octopress.org/docs/blogging/
 [snippets]: http://octopress.org/docs/blogging/code/
 

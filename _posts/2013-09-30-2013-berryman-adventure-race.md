@@ -16,7 +16,7 @@ modified: 2013-10-02
 ---
 Over the weekend of September 28th, 2013 I had the opportunity to do the Berryman Adventure race with my Brother-in-law Shawn which is a multi-sport race for Run, Bike, and Canoe... BUT you have to take everything with you.  Food, water, clothes, paddles, etc.  The Berryman Adventure races is an orienteering race where the night before we get a list of lat/long locations that we have to find using traditional methods of locating things;  a map and a compass.  Between each checkpoints you do not have the luxury of nice foot paths that are carved  to take you from point "A" to point "B".  You have to "Bushwhack" your way through trees, streams, animals, twigs, brush, poison ivy, etc, and make your own path.
 
-{% blockquote Bonk Hard Racing, LLC http://www.bonkhardracing.com/races/berryman_du/default.asp Berryman Adventure :: The Midwest's Premier Adventure Race %}
+{% blockquote Bonk Hard Racing, LLC http://www.bonkhardracing.com/berryman-adventure/ Berryman Adventure :: The Midwest's Premier Adventure Race %}
 "The Berryman Adventure is a TRUE backwoods, old school adventure race - offering a single course taking teams 12 to 16 hours to complete". 
 {% endblockquote %}
 
@@ -54,7 +54,7 @@ Also, if you want to read about the race from other racers, I found:
 -	[Rock Racing Xtreme Adventure][rock-racing] that has some pictures and a video clip of the downpour in the canoes
 -	[Emily Korsch's][silkychrome] Outdoor Adventure who was also on the 2nd place team *Alpine Shop*, PLUS she is competing at USARA National Championships starting TOMORROW in Nashville, IN. 
 
-[bees]: http://support.apple.com/kb/HT1865 
+[bees]: https://web.archive.org/web/20140105015852/http://support.apple.com/kb/HT1865 
 [ironman]: http://en.wikipedia.org/wiki/Ironman_Triathlon#Ironman_70.3 
 [BMmaps]: https://maps.google.com/maps?q=https://dl.dropboxusercontent.com/u/554176/2013Berryman-Adventure.kmz
 [rock-racing]: http://rock-racing.blogspot.com/2013/10/berryman-adventure-race-2013.html

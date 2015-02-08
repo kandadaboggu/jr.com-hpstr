@@ -22,7 +22,7 @@ What is TSA Pre Check
 ---
 The [TSA Pre Check program][tsa-pre] is the background security checks performed by U.S. Customs and Border Protection (CBP) for their Trusted Traveler program. This "Trusted Traveler" is the key because the only people who reference TSA Pre Check is the TSA (more to follow on this). With the TSA Pre Check completed, you are allowed to use the expedited screening process that is found at select Airports. Also, your airline must participate with the program (again, more to follow on this).
 
-[tsa-pre]: http://www.tsa.gov/tsa-pre Check
+[tsa-pre]: http://www.tsa.gov/tsa-precheck
 
 Why do I want TSA Pre Check
 ---
@@ -37,7 +37,7 @@ If you try to help by answering these questions before you start, they usually e
 
 Which Airports or Airlines are participating
 ---
-It's important to know that TSA Pre Check is available only if the airport AND the airline participate. This is because the airport is the entity who assigns a specifically area for TSA Pre Check approved individuals AND the way they know you are OK is they use a barcode scanner on your ticket (or e-ticket like using Apple's Passbook app on iOS 6) as been supplied by the airline. You can find a list of Airlines (then their associated airports) at: <http://www.tsa.gov/field-collection/field-section/392> OR at CBP site: <http://www.globalentry.gov/tsa.html>
+It's important to know that TSA Pre Check is available only if the airport AND the airline participate. This is because the airport is the entity who assigns a specifically area for TSA Pre Check approved individuals AND the way they know you are OK is they use a barcode scanner on your ticket (or e-ticket like using Apple's Passbook app on iOS 6) as been supplied by the airline. You can find a list of Airlines (then their associated airports) at: <http://www.tsa.gov/tsa-precheck/tsa-precheck-airlines-airports> OR at CBP site: <http://www.globalentry.gov/tsa.html>
 
 What is the signup process
 ---

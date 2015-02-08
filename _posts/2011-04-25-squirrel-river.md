@@ -13,7 +13,7 @@ comments: true
 share: true
 ---
 <!-- <a href="https://www.flickr.com/photos/justinrummel/5651796308/"><img src="http://farm6.static.flickr.com/5265/5651796308_522b3afcc2_b.jpg" title="20110417-Squirrel_River-020" /></a> -->
-This set contains pictures during my Alaska trip in 2011. My Alaskan family flew me out (along with a camera crew from National Geographic) out to their camp down the [Squirrel River](http://goo.gl/maps/zm1x). It was a wonderful time, one of those memorable moments that you wish you could describe in words and capture in pictures knowing they will never do justice to the experience.
+This set contains pictures during my Alaska trip in 2011. My Alaskan family flew me out (along with a camera crew from National Geographic) out to their camp down the Squirrel River. It was a wonderful time, one of those memorable moments that you wish you could describe in words and capture in pictures knowing they will never do justice to the experience.
 
 For this set I was worried about the snow reflection washing out everything or making the exposure to bright for post processing. I decided to take all the pictures at -1 Exposure which I believe helped in the long run. 
 

@@ -33,7 +33,7 @@ Next we're going to input our FQDN and Networking info into the script so it can
 -	/etc/hostname
 -	/etc/network/interfaces
 
-This script is available on SRT's public github repo at: [https://github.com/stonyrivertech/SRT-Public/blob/master/VMWare/ubuntuSetup.sh](https://github.com/stonyrivertech/SRT-Public/blob/master/VMWare/ubuntuSetup.sh), watch it in action below.
+This script is available on my github repo at: [https://github.com/justinrummel/Random-Scripts/blob/master/VMWare/ubuntuSetup.sh](https://github.com/justinrummel/Random-Scripts/blob/master/VMWare/ubuntuSetup.sh), watch it in action below.
 
 <iframe src="//player.vimeo.com/video/117528351?portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/117528351">Ubuntu Server Setup Script Demo</a></p>
 
@@ -43,9 +43,25 @@ The next script makes sure that you have the proper VMware Tools installed on Ub
 {% highlight bash %}
 #!/bin/bash
 
-# This script was developed BY Stony River Technologies (SRT)
-# ALL scripts are covered by SRT's License found at:
-# https://raw.github.com/stonyrivertech/SRT-Public/master/LICENSE 
+# Copyright (c) 2015 Justin Rummel
+# 
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+# 
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+# 
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+# THE SOFTWARE.
 
 # Created by Justin Rummel
 # Version 1.0.0 - 11/15/2012

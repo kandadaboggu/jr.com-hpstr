@@ -69,7 +69,7 @@ Final solution?  Thank goodness Apple updated their [Kerberos][kerb] to [Heimdal
 3.	change permissions on the new Server for FileData ```sudo chown -R _teamsserver:_teamsserver``` & ```sudo chmod -R +a "www allow search"```
 4.	On the new server ```dropdb``` the the existing db (thus loosing ALL content previously there), ```createdb``` to have a bare but ready db and then ```pg_restore``` your info from your collab.pgdump.
 
-[kerb]: http://en.Wikipedia.org/Wiki/Kerberos_(protocol)
+[kerb]: http://en.wikipedia.org/wiki/Kerberos_(protocol)
 [h5l]: http://www.h5l.org
 [mactech]: /mactech-conference-2011
 [it851]: /it851-how-lion-has-changed-mac-os-x-services-features-capabilities
