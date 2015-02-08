@@ -43,9 +43,9 @@ google_verify:
 bing_verify:        
 
 # Google Adsense in adsense.html section
-ad-client: ca-pub-9983565238165896
-ad-slot: 7423687945
-ad-index: 5946954746
+ad-client: ca-pub-9983565238165896 
+ad-slot: 3397540349
+ad-index: 4095544340
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York

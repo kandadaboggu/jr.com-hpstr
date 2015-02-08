@@ -26,8 +26,16 @@ body {
 	}
 }
 .adsbygoogle {
-	display: block;	
+	display: block;
 	text-align: center;
+		@media #{$medium} {
+			display: block;
+			text-align: center;
+		}
+		@media #{$large} {
+			display: block;
+			text-align: center;
+		}
 }
 .twitter {
 	display: block;
