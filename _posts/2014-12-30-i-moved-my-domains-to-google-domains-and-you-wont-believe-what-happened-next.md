@@ -1,8 +1,8 @@
 ---
 title: "I moved my domains to Google Domains, and you won't believe what happened next"
+date: 2014-12-30 14:53
 author: Justin Rummel
 layout: post
-date: 2014-12-30 14:53
 tags: 
  - Google
 comments: true
