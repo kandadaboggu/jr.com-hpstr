@@ -1,8 +1,23 @@
+<!-- Default hpstr scripts -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="{{ site.url }}/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 <script src="{{ site.url }}/assets/js/scripts.min.js"></script>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
+<!-- Search Results by jekyll-lunr-js-search -->
+{% if page.title == "Search" %}
+<script src="{{ site.url }}/assets/js/search.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+$(function() {
+	$('#search-query').lunrSearch({
+		indexUrl: '/assets/js/index.json',           // URL of the `index.json` index data for your site
+		results:  '#search-results',          // jQuery selector for the search results container
+		entries:  '.entries',                 // jQuery selector for the element to contain the results list, must be a child of the results element above.
+		template: '#search-results-template'  // jQuery selector for the Mustache.js template
+	});
+});
+</script>
+{% endif %}
 
 {% if site.google_analytics %}
 <!-- Asynchronous Google Analytics snippet -->
@@ -18,4 +33,7 @@
 </script>
 {% endif %}
 
-{% if page.comments != false %}{% include disqus_comments.html %}{% endif %}
+{% if page.comments != false %}
+<!-- Disqus Comments -->
+{% include disqus_comments.html %}
+{% endif %}

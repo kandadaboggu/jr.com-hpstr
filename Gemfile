@@ -10,6 +10,7 @@ group :jekyll_plugins do
 	gem "octopress-codeblock"
 	gem "octopress-quote-tag"
 	gem 'jekyll-twitter-plugin'
+	gem 'jekyll-lunr-js-search'
 #	gem 'octopress-minify-html'
 #	gem 'flickraw'
 end
