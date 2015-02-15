@@ -1,4 +1,4 @@
----
+	---
 title: "It's (Log)^2, it's big, it's heavy, it's wood [Mac OSX Server Edition]"
 author: Justin Rummel
 layout: post
@@ -114,7 +114,7 @@ There is so much going on in terms of Open Directory it's hard to begin, as it d
 2.	Password (Password Service)
 3.	Kerberos (now Heimdal vs. MIT Kerberos)
 
-You can read about Open Directory on Apple's man page [opnedirectoryd][opendirectoryd], or reference the [error codes][oderror] in Apple's developer section.  There are some key troubleshooting steps I usually perform when trying to debug authentication issues:
+You can read about Open Directory on Apple's man page [opnedirectoryd][opendirectoryd] ([man opendirectoryd](x-man-page://8/opendirectoryd)), or reference the [error codes][oderror] in Apple's developer section.  There are some key troubleshooting steps I usually perform when trying to debug authentication issues:
 
 1.	```ping -c 4 ODM.IP.address``` (it should work)
 2.	```host ODM.IP.address``` (it should report back your server's fully qualified domain name)
@@ -139,7 +139,7 @@ odutil set log default
 {% blockquote OS X Server: Changing opendirectoryd logging levels http://support.apple.com/kb/HT4696 %}
 *	The logging level will persist through restarts.
 *	Other logging levels are also available: "alert", "critical", "error", "warning", "notice", and "info".
-*	For more information please refer to the manual pages for the odutil utility (such as "man odutil").
+*	For more information please refer to the manual pages for the odutil utility (such as "[man odutil](x-man-page://1/odutil)").
 *	Generally, debug logging should only be used to troubleshoot Open Directory service-related issues because debug logging can generate large amounts of log messages. If you need more detailed information about Open Directory events but do not wish to use "debug", consider using "info" instead.
 {% endblockquote %}
 

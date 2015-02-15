@@ -27,8 +27,11 @@ Every year I like to dig a little around some default paths to see what new bina
 Nothing has changed inside the /bin folder
 
 #### /sbin
-Nothing was added, what should not be surprising is what was removed, specifically ipfw and ip6fw.  If you do a ```man ipfw``` on your Mavericks machine Apple warned you that this was going away with: 
-> This utility is DEPRECATED. Please use pfctl(8) instead
+Nothing was added, what should not be surprising is what was removed, specifically ipfw and ip6fw.  If you do a ```man ipfw``` on your Mavericks machine Apple warned you that this was going away with:
+
+{% blockquote ipfw man page %}
+This utility is DEPRECATED. Please use pfctl(8) instead
+{% endblockquote %}
 
 #### /usr/bin
 There are a lot of updated binaries that had endings of ".12" which were removed and ".18" were added.  Don't really know what those are.  There are some new items with AVB (which was actually added in 10.9.5), but was is really interesting is all the "diagnose" items.  If you think Apple has a QA problem, they are trying to fix it with all of these diagnose binaries such as: 
@@ -48,9 +51,11 @@ A lot of new "*d" daemon processes that do not have man files or output help fil
 #### /usr/sbin
 Here are new commands that I can see being used by macadmins: 
 
-**discoveryutil** - running sudo discoveryutil --help doesn't give you much, but there it shows a --debug option that states "interact w/discoveryd".  Hmm.. what is discoveryd? The man page states: 
+**discoveryutil** - running sudo discoveryutil --help doesn't give you much, but there it shows a --debug option that states "interact w/discoveryd".  Hmm.. what is discoveryd? [The man page](x-man-page://8/discoveryd) states: 
 
-> The discoveryd daemon is responsible for unicast DNS resolution, multicast DNS resolution, and Service Discovery on the system.  It performs queries, registrations, and provides answers on behalf of other clients through the DNS Service Discovery API as documented in dns_sd.h
+{% blockquote man discoveryd %}
+The discoveryd daemon is responsible for unicast DNS resolution, multicast DNS resolution, and Service Discovery on the system.  It performs queries, registrations, and provides answers on behalf of other clients through the DNS Service Discovery API as documented in dns_sd.h
+{% endblockquote %}
 
 We have DNS debugging! More info in man discoveryd such as logging level (None, Basic, Intermediate, Detailed, VeryDetailed, Everything, or a number) or the class (Events, Sockets, Bonjour, Network).
 
@@ -66,13 +71,13 @@ sudo discoveryutil loglevel             # Default is "Basic", can see above for 
 sudo discoveryutil configinterfaces     # Current IP configurations for each interface.  something like a reformatted ipconfig or ifconfig
 {% endhighlight %}
 
-**dnctl** - this command forces your machine to work on a poor network for testing.  The man page gives you a checklist (things to think about), variable flag options, and some examples.
+**dnctl** - this command forces your machine to work on a poor network for testing.  [The man page](x-man-page://8/dnctl) gives you a checklist (things to think about), variable flag options, and some examples.
 
 **firmwarepasswd** - I'm guessing this will now be the default for setting your firmware password on devices and ```setregproptool``` will no longer be used.  Update your scripts! 
 
 **sysadminctl** - New command line tool to manipulate local users.  You can add, delete, password update, reset passwords for local accounts. Unfortunately there is no man page.  I haven't tested this fully to see how it handles directory accounts (AD or OD).
 
-**unsetpassword** - set password to blank, needing a new pass.  From the man page: 
+**unsetpassword** - set password to blank, needing a new pass.  From the help page: 
 
 > Performs the following actions on the current user's record and then shuts down the system:
  1. Sets the password to blank.
