@@ -12,7 +12,7 @@ share: false
 comments: false
 ---
 <header class="post-header">
-	<h1>Search</h1>
+	<h1>Search: {{ site.title }}</h1>
 </header>
 
 <div id="search">
@@ -22,7 +22,8 @@ comments: false
 </div>
 
 <section id="search-results" style="display: none;">
-	<p>Search results</p>
+	<div align="right">(Can't find what you want?  Return <a href="{{ site.url }}">Home</a>)</div>
+	<h1>Search results</h1>
 	<div class="entries">
 	</div>
 </section>
