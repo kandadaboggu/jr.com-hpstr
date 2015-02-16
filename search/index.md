@@ -22,7 +22,6 @@ comments: false
 </div>
 
 <section id="search-results" style="display: none;">
-	<div align="right">(Can't find what you want?  Return <a href="{{ site.url }}">Home</a>)</div>
 	<h1>Search results</h1>
 	<div class="entries">
 	</div>

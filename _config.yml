@@ -98,6 +98,6 @@ page_template: page
 draft_template: post
 
 lunr_search:
-  js_dir: "assets/js"
+  js_dir: "assets/js/lunr"
   min_length: 3
   excludes: [feed.xml, atom.xml, robots.txt, sitemap.xml, 404.html, favicon.ico, favicon.png, tags, posts, bio, resume]
