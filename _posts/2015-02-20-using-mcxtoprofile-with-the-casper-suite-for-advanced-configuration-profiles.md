@@ -9,6 +9,7 @@ tags:
  - Casper Suite
  - CLI
  - OSX
+ - Yosemite
 image:
   feature: # 2048x768 for article header
   thumb: # 400x400 for Twitter

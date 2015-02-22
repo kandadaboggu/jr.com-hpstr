@@ -7,6 +7,9 @@ description: "What is Bushel, what can it do, and is it for me?"
 tags:
  - Apple
  - Bushel
+ - OSX
+ - IOS
+ - Yosemite
 image:
   feature: 2015/01/15/Bushel-Header.png
   thumb: 2015/01/15/Bushel.png
@@ -34,7 +37,7 @@ Finally, the limited Security option settings available to set are:
 -	Disable iCloud backups
 -	Protect company data for Apps that are installed by Bushel (most likely done by VPP).
 
-If you have any questions about VPP or DEP, [Bushel has a great FAQ][faq] that helps answers these questions.  You may also want to review my own article of [Working with VPP and DEP Apple IDs][jr-vpp-dep].
+If you have any questions about VPP or DEP, [Bushel has a great FAQ][faq] that helps answers these questions.  You may also want to review my own article of [Working with VPP and DEP Apple IDs]({{ site.url }}/working-with-vpp-and-dep-apple-ids/).
 
 ## Who is the target audience?
 THAT is the big question that I've been trying to answer for the past couple of months.  To better answer that question you need to read the blog post from Bushel themselves.
@@ -62,7 +65,6 @@ The common trend is there is a small group of people who have a need to *slightl
 [2]: http://finance.yahoo.com/news/introducing-bushel-powerful-apple-device-140300749.html
 [3]: http://betanews.com/2015/01/14/bushel-makes-apple-mobile-device-management-available-to-smaller-businesses/
 [faq]: http://blog.bushel.com/faq/
-[jr-vpp-dep]: https://www.justinrummel.com/working-with-vpp-and-dep-apple-ids/
 [manual]: http://blog.bushel.com/manual/
 [small-office-environments]: http://blog.bushel.com/2014/10/using-bushel-in-small-office-environments/
 [field-services]: http://blog.bushel.com/2014/10/using-bushel-in-field-services/
