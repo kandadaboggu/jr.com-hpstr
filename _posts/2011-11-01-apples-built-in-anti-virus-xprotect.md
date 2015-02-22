@@ -1,5 +1,5 @@
 ---
-title: 'Apple&#8217;s Built-in Anti-Virus: XProtect'
+title: "Apple's Built-in Anti-Virus: XProtect"
 author: Justin Rummel
 layout: post
 permalink: /apples-built-in-anti-virus-xprotect/
