@@ -31,6 +31,26 @@ figure {
     }
   }
   &.half {
+    @media #{$small} {
+      img {
+        width: 293px;
+        float: left;
+        margin-right: 10px;
+      }
+      figcaption {
+        clear: left;
+      }
+    }
+    @media #{$medium} {
+      img {
+        width: 324px;
+        float: left;
+        margin-right: 10px;
+      }
+      figcaption {
+        clear: left;
+      }
+    }
     @media #{$large} {
       img {
         width: 400px;
@@ -43,6 +63,26 @@ figure {
     }
   }
   &.third {
+    @media #{$small} {
+      img {
+        width: 192px;
+        float: left;
+        margin-right: 10px;
+      }
+      figcaption {
+        clear: left;
+      }
+    }
+    @media #{$medium} {
+      img {
+        width: 212px;
+        float: left;
+        margin-right: 10px;
+      }
+      figcaption {
+        clear: left;
+      }
+    }
     @media #{$large} {
       img {
         width: 263px;
@@ -55,6 +95,26 @@ figure {
     }
   }
   &.fourth {
+    @media #{$small} {
+      img {
+        width: 141px;
+        float: left;
+        margin-right: 10px;
+      }
+      figcaption {
+        clear: left;
+      }
+    }
+    @media #{$medium} {
+      img {
+        width: 157px;
+        float: left;
+        margin-right: 10px;
+      }
+      figcaption {
+        clear: left;
+      }
+    }
     @media #{$large} {
       img {
         width: 195px;
@@ -67,6 +127,26 @@ figure {
     }
   }
   &.fifth {
+    @media #{$small} {
+      img {
+        width: 111px;
+        float: left;
+        margin-right: 10px;
+      }
+      figcaption {
+        clear: left;
+      }
+    }
+    @media #{$medium} {
+      img {
+        width: 123px;
+        float: left;
+        margin-right: 10px;
+      }
+      figcaption {
+        clear: left;
+      }
+    }
     @media #{$large} {
       img {
         width: 154px;
