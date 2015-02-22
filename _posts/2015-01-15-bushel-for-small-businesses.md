@@ -2,12 +2,11 @@
 layout: post
 title: "Bushel: 'You put your Apple things in here' for small businesses"
 modified:
-categories: 
+categories:
 description: "What is Bushel, what can it do, and is it for me?"
 tags:
  - Apple
  - Bushel
- - JAMF
 image:
   feature: 2015/01/15/Bushel-Header.png
   thumb: 2015/01/15/Bushel.png
@@ -28,7 +27,7 @@ Installing Apps can be done by using Apple's Volume Purchasing Program (VPP) whe
 
 Assistance in Email configuration is also provided by Bushel for Exchange (Office365 and Google Apps EDU/Business/Gov would be included), non Google Apps, Yahoo, or plain IMAP/SMTP (like you would get from an Apple Server).  If you don't know the settings for these services (Exchange/Google/Yahoo/etc) do a quick google search of "*insert_service_here* SMTP settings" and the answer should be on the first page of results.
 
-Finally, the limited Security option settings available to set are: 
+Finally, the limited Security option settings available to set are:
 
 -	Require a Passcode
 -	Auto Lock an OSX or iOS device after "x" minutes
@@ -64,10 +63,10 @@ The common trend is there is a small group of people who have a need to *slightl
 [3]: http://betanews.com/2015/01/14/bushel-makes-apple-mobile-device-management-available-to-smaller-businesses/
 [faq]: http://blog.bushel.com/faq/
 [jr-vpp-dep]: https://www.justinrummel.com/working-with-vpp-and-dep-apple-ids/
-[manual]: http://blog.bushel.com/manual/ 
+[manual]: http://blog.bushel.com/manual/
 [small-office-environments]: http://blog.bushel.com/2014/10/using-bushel-in-small-office-environments/
 [field-services]: http://blog.bushel.com/2014/10/using-bushel-in-field-services/
 [education]: http://blog.bushel.com/2014/10/using-bushel-in-education/
 [acn]: http://blog.bushel.com/2014/10/bushel-for-apple-consultants/
 [retail-environments]: http://blog.bushel.com/2014/10/using-bushel-in-retail-environments/
-[casper]: http://www.jamfsoftware.com/products/casper-suite/ 
+[casper]: http://www.jamfsoftware.com/products/casper-suite/

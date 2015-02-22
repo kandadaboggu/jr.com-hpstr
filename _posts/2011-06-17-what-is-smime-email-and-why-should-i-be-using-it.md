@@ -6,13 +6,12 @@ layout: post
 permalink: /what-is-smime-email-and-why-should-i-be-using-it/
 shorturl:
   - http://j.mp/q3IL8U
-tags: 
+tags:
   - Apple
   - Certificates
   - iOS
   - Lion
   - OSX
-  - OSXS
   - S/MIME
   - Mail
 comments: true

@@ -3,7 +3,7 @@ title: "Octotransfigurator-inator: Migrating from Wordpress"
 author: Justin Rummel
 layout: post
 date: 2013-02-11 10:31
-tags: 
+tags:
   - Professional
   - Wordpress
   - Octopress

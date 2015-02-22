@@ -5,7 +5,7 @@ layout: post
 permalink: /10-8-mountain-lion-server-software-update/
 shorturl:
   - http://j.mp/MGHsiP
-tags: 
+tags:
   - Apple
   - Mt Lion
   - OSXS
@@ -21,7 +21,7 @@ In the beginning of Mt Lion, there was a large scare that Apple was going to rem
 
 Functionality
 ---
-I don’t see any difference in Software Update between Lion and Mt Lion in terms of functionality. You have the option to “download all and enable” or “manually select” which update is available to clients. Apple wants to make things easy for you so it defaults to an automatic roll, and if that is the case you don’t really care what update are available (just as long as they are downloaded and available) so the list of updates are on hidden on the second tab to keep things neat. 
+I don’t see any difference in Software Update between Lion and Mt Lion in terms of functionality. You have the option to "download all and enable" or "manually select" which update is available to clients. Apple wants to make things easy for you so it defaults to an automatic roll, and if that is the case you don’t really care what update are available (just as long as they are downloaded and available) so the list of updates are on hidden on the second tab to keep things neat. 
 
 ![1-mtl-SUS]({{ site.url}}/images/2012/07/1-mtl-SUS.png)
 
@@ -37,4 +37,4 @@ I do like Mt Lion’s version of Software Update because Apple has finally made 
 
 File Location
 ---
-Just like all the other services, Software Update has moved it’s data to the **/Library/Server** folder. Inside there you can drill down to “**Software Updates**” and find the usual “**Config**” and “**Data**” folder, which are used for Software Updates. One thing you cannot do in Mt Lion’s version of Software update is relocate the storage path. I would assume a simple symlink to a second drive would work just fine in this instance prior to starting the Software Update service.
+Just like all the other services, Software Update has moved it’s data to the **/Library/Server** folder. Inside there you can drill down to "**Software Updates**" and find the usual "**Config**" and "**Data**" folder, which are used for Software Updates. One thing you cannot do in Mt Lion’s version of Software update is relocate the storage path. I would assume a simple symlink to a second drive would work just fine in this instance prior to starting the Software Update service.

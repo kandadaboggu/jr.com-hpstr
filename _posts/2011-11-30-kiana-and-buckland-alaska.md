@@ -13,12 +13,12 @@ comments: true
 share: true
 ---
 <!-- <a href="https://www.flickr.com/photos/justinrummel/6428384225/"><img src="http://farm8.static.flickr.com/7171/6428384225_83178a1aaa_b.jpg" title="20111116-Kiana-056" /></a> -->
-During the week of November 14th, 2011, through the combination of Qivliq Village Partnerships and the NANA BWISE program I was able to visited two villages within the Northwest Arctic: Kiana and Buckland. 
+During the week of November 14th, 2011, through the combination of Qivliq Village Partnerships and the NANA BWISE program I was able to visited two villages within the Northwest Arctic: Kiana and Buckland.
 
-I really do enjoy these trips to the Northwest Arctic, even when the “high” temperature is about zero degrees, with the coldest always around 7am which hit -25 degrees (just another day in paradise). During this time several items were achieved:
+I really do enjoy these trips to the Northwest Arctic, even when the "high" temperature is about zero degrees, with the coldest always around 7am which hit -25 degrees (just another day in paradise). During this time several items were achieved:
 
 *   A short 1hr discussion with several middle school and hight school classes on Technology Jobs (which included: Helpdesk, Call Center Staff, System Administrator, Integrator, Instructor, Developer, and Subject Matter Expert.) Included in this discussion were key items when a business is hiring that ranged from Higher Education, industry standard Certificates, and portraying NANA values during interviews (Respect for Others, Hard Work, and Hunter Success).
-*   A Presentation Skills all-day training session was provided that took students from start to finish on collecting, outlining, creating and presenting a presentation to others. This year, our training focused on teaching parents and elders a “Macintosh Computers: a first time experience) assuming they have either a) never touch a Mac, or b) never touched a computer.
+*   A Presentation Skills all-day training session was provided that took students from start to finish on collecting, outlining, creating and presenting a presentation to others. This year, our training focused on teaching parents and elders a "Macintosh Computers: a first time experience) assuming they have either a) never touch a Mac, or b) never touched a computer.
 *   Lastly, during both the short 1hr discussions and at the end of the Macintosh Computers presentation; I was able to remind people to watch nana.com for Jobs, Scholarships, and for Internship announcements in January. We were also able to guide a few parents for their first time experience with Powerschool (an online real-time grade and attendance record keeping that is used throughout the school district).
 
 <figure class="third">

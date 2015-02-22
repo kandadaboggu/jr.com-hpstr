@@ -3,7 +3,7 @@ layout: post
 title: "Generic Ubuntu Server Setup Scripts for Networking and VMware Tools"
 date: 2015-01-22T16:51:37-05:00
 modified:
-categories: 
+categories:
 description: "Scripts to get your Ubuntu Server quickly up and running"
 tags:
  - VMware Fusion

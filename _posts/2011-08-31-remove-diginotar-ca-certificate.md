@@ -5,7 +5,7 @@ layout: post
 permalink: /remove-diginotar-ca-certificate/
 shorturl:
   - http://j.mp/nOeJ56
-tags: 
+tags:
   - Apple
   - Certificates
   - Lion
@@ -18,8 +18,6 @@ image:
   creditlink:
 ---
 First, I want to say thanks to [Edward Marczak][radiotope] for his original post on how to remove the Diginotar CA Certificate, and his forward thinking about how to do this from a System Admin perspective. I wanted to add a few more bits of info to his post to better explain the *security* command.
-
-[radiotope]: http://radiotope.com/content/remove-certificate
 
 In Ed's post, he states to run this command:
 
@@ -42,12 +40,11 @@ echo "Going to delete: $BADDIGIn"
 sudo /usr/bin/security delete-certificate -Z "$BADDIGI" /System/Library/Keychains/SystemRootCertificates.keychain
 {% endhighlight %}
 
-So the obvious question from the above command is "How do I know info@diginotar.nl was the correct email"? Simple, I checked Keychain Access. 
+So the obvious question from the above command is "How do I know info@diginotar.nl was the correct email"? Simple, I checked Keychain Access.
 
 If you open Keychain Access (located in /Applications/Utilities/), do a search for Diginotar (you will get one value in return as seen below). Right click the certificate and select "Get Info".
 
-![Digi-Search][Digi-Search]
-![Digi-Info][Digi-Info]
+![Digi-Search]({{ site.url }}/images/2011/08/Digi-Search.png)
+![Digi-Info]({{ site.url }}/images/2011/08/Digi-Info.png)
 
-[Digi-Search]: /images/2011/08/Digi-Search.png
-[Digi-Info]: /images/2011/08/Digi-Info.png
+[radiotope]: http://radiotope.com/content/remove-certificate

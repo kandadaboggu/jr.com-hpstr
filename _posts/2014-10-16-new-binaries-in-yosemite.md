@@ -4,7 +4,7 @@ author: Justin Rummel
 description: "Find the new (or removed) binary commands now that Yosemite is released!"
 layout: post
 date: 2014-10-16 09:30
-tags: 
+tags:
  - Apple
  - Yosemite
  - OSX

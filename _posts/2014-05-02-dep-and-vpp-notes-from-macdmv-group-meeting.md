@@ -3,7 +3,7 @@ title: "DEP and VPP Notes from MacDMV Group Meeting"
 author: Justin Rummel
 layout: post
 date: 2014-05-02 11:59
-tags: 
+tags:
  - Apple
  - DEP
  - VPP

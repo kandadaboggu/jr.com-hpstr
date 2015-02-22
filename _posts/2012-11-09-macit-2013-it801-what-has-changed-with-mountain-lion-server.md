@@ -5,7 +5,7 @@ layout: post
 permalink: /macit-2013-it801-what-has-changed-with-mountain-lion-server/
 shorturl:
   - http://j.mp/SAPNEh
-tags: 
+tags:
   - MacIT
   - Mt Lion
   - OSXS

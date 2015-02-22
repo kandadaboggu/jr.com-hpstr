@@ -3,7 +3,7 @@ layout: post
 title: "2014 the Perfect 10 Rogaine"
 date: 2014-10-22
 modified: 2015-01-17
-categories: 
+categories:
 description: "Race recap for 2014 The Perfect 10 Rogaine"
 tags:
  - Travel

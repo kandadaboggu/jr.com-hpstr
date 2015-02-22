@@ -3,13 +3,12 @@ layout: post
 title: "Integrating (and Debugging) Windows Active Directory LDAP Connection With JAMF Software's JSS"
 date: 2015-01-21T09:45:32-05:00
 modified:
-categories: 
+categories:
 description: "Is your JSS AD setup not going well?  Start here."
 tags:
  - Active Directory
  - Casper Suite
  - DNS
- - JAMF
  - JSS
 image:
   feature: 2015/01/20/casper-suite-cropped.jpg

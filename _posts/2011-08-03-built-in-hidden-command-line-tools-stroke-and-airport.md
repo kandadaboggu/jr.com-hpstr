@@ -5,12 +5,11 @@ layout: post
 permalink: /built-in-hidden-command-line-tools-stroke-and-airport/
 shorturl:
   - http://j.mp/pao6S0
-tags: 
+tags:
   - Apple
   - CLI
   - Lion
   - OSX
-  - OSXS
 comments: true
 image:
   feature:
@@ -19,14 +18,9 @@ image:
 ---
 These tools are nothing new as they were available in Snow Leopard (and I believe Leopard, just can’t check), but they are fun little tools just in case you don’t have Apple’s Xcode [iTunes link][xCode] installed or [MacPorts][macPorts] available on your computer.
 
-[xCode]: http://itunes.apple.com/us/app/xcode/id448457090?mt=12
-[macPorts]: http://www.macports.org/install.php
-
 Port Scanning with *stroke*
 ---
 So you want to perform a port scan, but you are missing the more powerful *nmap* command that can be installed via MacPorts or compiled from [insecure.org][insecure]. In order to use the command, open Terminal and cd to the **/Applications/Utilities/Network Utility.app/Contents/Resources/** directory, then type ./stoke
-
-[insecure]: http://nmap.org/download.html#source
 
 {% highlight bash %}
 $ justinrummel@JRummel-MBP$ cd "/Applications/Utilities/Network Utility.app/Contents/Resources/"
@@ -125,11 +119,12 @@ What else can you do with the airport command? How about this awesome list:
 
 These options should look somewhat familiar as if you check out the System Preferences => Network => Wi-Fi you would see the same checkboxes. This gives you the option of changing your settings by SSH or a script later in time.
 
-![Settings][Settings]
+![Settings]({{ site.url }}/images/2011/08/Wi-Fi1.png)
 Wi-Fi Network Settings
 
-![Options][Options]
+![Options]({{ site.url }}/images/2011/08/Wi-Fi2.png)
 Wi-Fi Network Options
 
-[Settings]: /images/2011/08/Wi-Fi1.png
-[Options]: /images/2011/08/Wi-Fi2.png
+[xCode]: http://itunes.apple.com/us/app/xcode/id448457090?mt=12
+[macPorts]: http://www.macports.org/install.php
+[insecure]: http://nmap.org/download.html#source

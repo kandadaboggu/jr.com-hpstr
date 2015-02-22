@@ -6,7 +6,7 @@ layout: post
 permalink: /hey-look-this-thing-works/
 shorturl:
   - http://j.mp/p6aiOY
-tags: 
+tags:
   - Apple
   - iOS
   - Lion

@@ -3,7 +3,7 @@ layout: post
 title: "Resizing a VMware Fusion Ubuntu Server Virtual Hard Drive (via Easy Install Mode)"
 date: 2015-02-05T10:23:46-05:00
 modified:
-categories: 
+categories:
 description: Has your VMware Fusion VM of Ubuntu Server not able to store all your data, use these steps!
 tags:
  - VMware Fusion

@@ -3,7 +3,7 @@ layout: post
 title: "Resizing a VMware Fusion Ubuntu Server Logical VHD (via Guided Partitioning)"
 date: 2015-02-06T05:19:39-05:00
 modified:
-categories: 
+categories:
 description: "Find out how to resize your VMware Fusion Logical Volumes!"
 tags:
  - VMware Fusion

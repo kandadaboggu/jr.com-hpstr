@@ -5,12 +5,10 @@ layout: post
 permalink: /flying-tsa-pre-check/
 shorturl:
   - http://j.mp/ZdmsrM
-tags: 
+tags:
   - Professional
   - Global Entry
-  - GOES
-  - pre-check
-  - Travel
+  - Pre-Check
   - TSA
 comments: true
 image:

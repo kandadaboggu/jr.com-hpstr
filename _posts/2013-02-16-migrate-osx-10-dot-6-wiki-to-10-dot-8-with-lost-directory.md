@@ -3,7 +3,7 @@ title: "Migrate OSX 10.6 Wiki to 10.8 with lost Directory"
 author: Justin Rummel
 layout: post
 date: 2013-02-16 13:12
-tags: 
+tags:
   - Apple
   - Mt Lion
   - Wiki
@@ -62,18 +62,12 @@ End result is a full functioning Wiki service... that is running on your local V
 1.	Be running as an ODM
 2.	May be joined to a ODM via Directory Utility.
 
-Final solution?  Thank goodness Apple updated their [Kerberos][kerb] to [Heimdal][h5l] (as discussed last year at [MacTech][mactech] and [MacIT][it851]), because I can now connect to multiple Directories!  I joined my VM of 10.8.2 running Server.app v2.2.1 to the future Directory system (AD or OD), adjusted the Wiki settings for each group, then followed Apple's kbase step by step which can be shortly described as:
+Final solution?  Thank goodness Apple updated their [Kerberos][kerb] to [Heimdal][h5l] (as discussed last year at [MacTech]({{ site.url }}/mactech-conference-2011/) and [MacIT]({{ site.url }}/it851-how-lion-has-changed-mac-os-x-services-features-capabilities/)), because I can now connect to multiple Directories!  I joined my VM of 10.8.2 running Server.app v2.2.1 to the future Directory system (AD or OD), adjusted the Wiki settings for each group, then followed Apple's kbase step by step which can be shortly described as:
 
 1.	export wiki postgres db with the ```pg_dump``` command.
 2.	copy /Library/Server/Wiki/FileData from the old server to the new server
 3.	change permissions on the new Server for FileData ```sudo chown -R _teamsserver:_teamsserver``` & ```sudo chmod -R +a "www allow search"```
 4.	On the new server ```dropdb``` the the existing db (thus loosing ALL content previously there), ```createdb``` to have a bare but ready db and then ```pg_restore``` your info from your collab.pgdump.
-
-[kerb]: http://en.wikipedia.org/wiki/Kerberos_(protocol)
-[h5l]: http://www.h5l.org
-[mactech]: /mactech-conference-2011
-[it851]: /it851-how-lion-has-changed-mac-os-x-services-features-capabilities
-[HT5585]: http://support.apple.com/kb/HT5585
 
 Lessons Learned
 ---
@@ -86,3 +80,7 @@ GeneratedUID: 27D18844-70C6-4BDD-BE3A-5B26A6FDEA1B
 
 # not my real UUID.	 Generated via command 'uuidgen'
 {% endhighlight %}
+
+[kerb]: http://en.wikipedia.org/wiki/Kerberos_(protocol)
+[h5l]: http://www.h5l.org
+[HT5585]: http://support.apple.com/kb/HT5585

@@ -3,7 +3,7 @@ layout: post
 title: "Google Domains Now Does Dynamic DNS"
 date: 2015-01-16T17:20:13-05:00
 modified:
-categories: 
+categories:
 description: "Google Domains is now for the public, with upgrades!"
 tags:
  - Google

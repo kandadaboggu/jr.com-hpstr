@@ -5,13 +5,12 @@ layout: post
 permalink: /smime-email-certificates-in-depth/
 shorturl:
   - http://j.mp/poq26v
-tags: 
+tags:
   - Apple
   - Certificates
   - iOS
   - Lion
   - OSX
-  - OSXS
   - S/MIME
 comments: true
 image:
@@ -21,16 +20,11 @@ image:
 ---
 Overview
 ---
-We have discussed the basics of S/MIME in my post [What Is S/MIME Email and Why Should I Be Using It][whatWhy], and from the last article [Acquiring a S/MIME Certificate for Free][freeCert] you should have your S/MIME certificate installed. Now lets get into some more technical aspects of S/MIME.
-
-[whatWhy]: /what-is-smime-email-and-why-should-i-be-using-it/
-[freeCert]: /acquiring-a-smime-certificate-for-free/
+We have discussed the basics of S/MIME in my post [What Is S/MIME Email and Why Should I Be Using It]({{ site.url }}/what-is-smime-email-and-why-should-i-be-using-it/), and from the last article [Acquiring a S/MIME Certificate for Free]({{ site.url }}/acquiring-a-smime-certificate-for-free/) you should have your S/MIME certificate installed. Now lets get into some more technical aspects of S/MIME.
 
 A Certificate, is a Certificate, is a Certificate
 ---
 A S/MIME certificate can be store several different ways (see Apple's kbase [About certificate formats][aboutCert]), but you will usually deal with .pem or .cer file for your public key, or a p12 file that contains both your Public and Private Keys. We can get our certificates by one of two ways:
-
-[aboutCert]: http://docs.info.apple.com/article.html?path=Mac/10.6/en/15177.html
 
 *   Export from Keychain Access
 *	Export using the security command
@@ -258,3 +252,5 @@ Footnotes
 {% highlight bash %}
 $ security verify-cert -c ~/Desktop/myPublicCert.pem
 {% endhighlight %}
+
+[aboutCert]: http://docs.info.apple.com/article.html?path=Mac/10.6/en/15177.html

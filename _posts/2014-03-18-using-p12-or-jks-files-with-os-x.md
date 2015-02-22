@@ -3,10 +3,9 @@ title: "Using .p12 or JKS files with OS X"
 author: Justin Rummel
 layout: post
 date: 2014-03-18 15:10
-tags: 
+tags:
  - Apple
  - Casper Suite
- - JAMF
  - OSXS
  - CrashPlan
  - Certificates

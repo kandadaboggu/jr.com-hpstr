@@ -5,7 +5,7 @@ layout: post
 permalink: /apples-built-in-anti-virus-xprotect/
 shorturl:
   - http://j.mp/vICnqI
-tags: 
+tags:
   - Apple
   - Lion
   - CLI
@@ -18,15 +18,12 @@ image:
 ---
 Today, [Intego announced of a new trojan designed for the Mac][DevilRobber] dubbed "DevilRobber".
 
-[DevilRobber]: http://blog.intego.com/new-malware-devilrobber-grabs-files-and-bitcoins-performs-bitcoin-mining-and-more/
-
 You can read Intego's site (or many other sites posting about this trojan), but I wanted to remind everyone that there is a built-in anti-virus software within updated versions of Snow Leopard (version 10.6.7 with Security Update 2011-003 OR greater) and Lion called XProtect.
 
 Xprotect is enabled by going to System Preferences => Security => General tab and check the "Automatically update safe downloads list". If you ever want to update your list, just uncheck / recheck the option.
 
-![XProtect][XProtect]
+![XProtect]({{ site.url }}/images/2011/11/XProtect.png)
 
-[XProtect]: /images/2011/11/XProtect.png
 (Notice, my settings may look different from yours as I have FileVault enabled along with other MCX settings. The safe downloads list is what's important for this article.)
 
 However, let's get a little more information from Xprotect.
@@ -51,5 +48,6 @@ $ cat /System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/XProtect.
 {% endhighlight %}
 
 ### Update
----
 XProtect.plist file has been updated as of Nov 1st, 2011, and if you grep for "Devil" you will get a response of "OSX.DevilRobber.A". Pretty quick (and automatically done) as the announcement was on Nov 1st.
+
+[DevilRobber]: http://blog.intego.com/new-malware-devilrobber-grabs-files-and-bitcoins-performs-bitcoin-mining-and-more/

@@ -3,9 +3,8 @@ title: "Casper Suite 9: Cloud and JDS Distribution Points"
 author: Justin Rummel
 layout: post
 date: 2013-08-30 17:30
-tags: 
+tags:
  - Casper Suite
- - JAMF
  - JDS
 comments: true
 published: true

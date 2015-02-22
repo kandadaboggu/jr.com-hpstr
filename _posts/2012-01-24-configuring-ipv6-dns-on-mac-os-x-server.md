@@ -5,7 +5,7 @@ layout: post
 permalink: /configuring-ipv6-dns-on-mac-os-x-server/
 shorturl:
   - http://j.mp/xVMM9L
-tags: 
+tags:
   - Apple
   - DNS
   - IPv6
@@ -36,8 +36,6 @@ Before we go any farther, I'm warning you now... modifying BIND configuration fi
 
 If you have never looked at creating and/or adjusting BIND records on an Apple Server, I would first HIGHLY recommend you pick up a copy of Ed Marczak's [Mac OS X Advanced System Administration v10.5][advance10.5]. It explains a lot about DNS and configuring BIND from command line starting at page 89 – 104. I'm not going to over the intricacies, I'm going for the dirty nibbles of IPv6 and what files you will adjust or create.
 
-[advance10.5]: http://www.amazon.com/Apple-Training-Advanced-System-Administration/dp/032156314X "Mac OS X Advanced System Administration v10.5"
-
 Test Environment
 ---
 In my test environment I have four domains:
@@ -57,9 +55,7 @@ Before we go any further, it is best practice to stop your DNS service prior to 
 
 /var/named
 ---
-I'm going to focus my examples on ONE domain "newco.prv" to make things easy to understand, however, this could be applied to any of the domains that I host within my lab. Also, at this point I assume you have already read my article [Working With IPv6 and Mac OS X][working-with-ipv6] and know how to find your IPv6 address.
-
-[working-with-ipv6]: /working-with-ipv6-and-mac-os-x/ "Working With IPv6 and Mac OS X"
+I'm going to focus my examples on ONE domain "newco.prv" to make things easy to understand, however, this could be applied to any of the domains that I host within my lab. Also, at this point I assume you have already read my article [Working With IPv6 and Mac OS X]({{ site.url }}/working-with-ipv6-and-mac-os-x/) and know how to find your IPv6 address.
 
 We are going to start with the easy files that we want to adjust to make IPv6 work in our environment. When you are thinking about DNS services on your Apple server, you are most likely thinking "How does a FQDN get translated to this IP address". The files that make this magic happen are located in your /var/named/ directory. You are going to have a file for each zone that starts with "db" (example db.newco.prv), which is the forwarding zone file. You will also have a "db.reverse.IP.in-addr.arpa" which is the IPv4 reverse zone file. There are two files that are "named.ca" and "named.local" that you can ignore as this is used for listing DNS root servers and your localhost environment respectively.
 
@@ -87,8 +83,6 @@ Notice that all of my IPv6 records start with "fe80". These are known as "link-l
 Now for the reverse record.
 
 Just like IPv4 we need to reverse your IPv6 record, however, it seems like it's not as simple as making things backwards to be in compliance with ARPA needed structure to "lookup" your IPv6 address and find the associated DNS record. I found a great utility called [ipv6calc][ipv6calc] that I was able to download, tar -xvzf; ./compile; make; sudo make install that will spit out the reverse IPv6 ARPA name.
-
-[ipv6calc]: http://mirrors.bieringer.de/www.deepspace6.net/projects/ipv6calc.html#id1506183 "ipv6calc"
 
 {% highlight bash %}
 $ justinrummel@jrummel-mbp:~$ ipv6calc --in ipv6addr --out revnibbles.arpa fe80::20c:29ff:fe21:28a9
@@ -170,7 +164,7 @@ There you go, everything is now configured time to test. Don't forget, we did th
 $ justinrummel@jrummel-mbp:~$ host cp.newco.prv
 	ldap.newco.prv has address 192.168.1.152
 	ldap.newco.prv has IPv6 address fe80::20c:29ff:fed0:c01
-  
+
 $ justinrummel@jrummel-mbp:~$ host 192.168.1.152
 	150.1.168.192.in-addr.arpa domain name pointer cp.newco.prv.
 
@@ -190,11 +184,13 @@ Conclusion
 ---
 Hopefully Apple will soon give us the capabilities of setting IPv6 records within Server Admin sometime in the near future as it will become important as operating systems and networks progress and fully utilize IPv6. And don't forget on June 6th 2012 we'll be celebrating [World IPv6 Launch: this time it's for real][world-ipv6-launch]
 
-[world-ipv6-launch]: http://arstechnica.com/business/news/2012/01/world-ipv6-launch-this-time-its-for-real.ars
-
 If you have any troubles with your IPv6 values not returning, my guess there is something minor such as one to many zeros in your IPv6 ARPA zone name and/or you have a simple typo. I'll try to help as much as I can if there are any questions.
 
 Additional Sources
 ---
 *   [IPv6 Converter](http://ipv6-literal.com/)
 *   [IPv6 REVERSE ZONE BUILDER](http://mike.kz/ipv6-zone-builder/)
+
+[advance10.5]: http://www.amazon.com/Apple-Training-Advanced-System-Administration/dp/032156314X "Mac OS X Advanced System Administration v10.5"
+[ipv6calc]: http://mirrors.bieringer.de/www.deepspace6.net/projects/ipv6calc.html#id1506183 "ipv6calc"
+[world-ipv6-launch]: http://arstechnica.com/business/news/2012/01/world-ipv6-launch-this-time-its-for-real.ars

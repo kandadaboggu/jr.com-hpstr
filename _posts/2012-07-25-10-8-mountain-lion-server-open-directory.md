@@ -5,7 +5,7 @@ layout: post
 permalink: /10-8-mountain-lion-server-open-directory/
 shorturl:
   - http://j.mp/MGHHKU
-tags: 
+tags:
   - Apple
   - Mt Lion
   - OSXS
@@ -36,19 +36,19 @@ The on thing that is missing from the GUI is a backup and Restore process.
 Open Directory Master Setup
 ---
 ![1-mtl-ODM.png]({{ site.url }}/images/2012/07/1-mtl-ODM.png)
-(Click the “On” button on the top right hand side. You should be used to this as everything uses this method to enable services.)
+(Click the "On" button on the top right hand side. You should be used to this as everything uses this method to enable services.)
 
 ![2-mtl-ODM.png]({{ site.url }}/images/2012/07/2-mtl-ODM.png)
 (Creating a ODM first.)
 
 ![3-mtl-ODM.png]({{ site.url }}/images/2012/07/3-mtl-ODM.png)
-(The usual “diradmin” username and password.)
+(The usual "diradmin" username and password.)
 
 ![4-mtl-ODM.png]({{ site.url }}/images/2012/07/4-mtl-ODM.png)
 (This is for your SSL Certificates.)
 
 ![5-mtl-ODM.png]({{ site.url }}/images/2012/07/5-mtl-ODM.png)
-(Verify information and click on the “Set Up” button.)
+(Verify information and click on the "Set Up" button.)
 
 ![6-mtl-ODM.png]({{ site.url }}/images/2012/07/6-mtl-ODM.png)
 (Configuring your new ODM.)
@@ -68,16 +68,16 @@ Open Directory Master Setup
 Open Directory Replica Setup
 ---
 ![ODR 1]({{ site.url }}/images/2012/07/11-mtl-ODM.png)
-(When you want to create a ODR, select the second option and click on “Next”.)
+(When you want to create a ODR, select the second option and click on "Next".)
 
 ![ODR 2]({{ site.url }}/images/2012/07/12-mtl-ODR.png)
-(Provide the ODM’s FQDN, diradmin username and password, then click on “Next”.)
+(Provide the ODM’s FQDN, diradmin username and password, then click on "Next".)
 
 ![ODR 3]({{ site.url }}/images/2012/07/13-mtl-ODR.png)
 (If you receive any error messages, my first guest is you have BAD DNS. In this case, I pointed my Ethernet Settings to a bad value of a DNS server.)
 
 ![ODR 4]({{ site.url }}/images/2012/07/14-mtl-ODR.png)
-(Verify ODR settings and click on “Set Up” button.)
+(Verify ODR settings and click on "Set Up" button.)
 
 ![ODR 5]({{ site.url }}/images/2012/07/15-mtl-ODM.png)
 (View from the ODM Server, which now recognizes that and ODR is available.)

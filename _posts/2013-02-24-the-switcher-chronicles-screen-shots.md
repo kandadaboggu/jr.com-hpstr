@@ -3,7 +3,7 @@ title: "'The Switcher Chronicles' - Screen Shots"
 author: Justin Rummel
 layout: post
 date: 2013-02-24 15:44
-tags: 
+tags:
  - Apple
  - Mt Lion
  - Switcher

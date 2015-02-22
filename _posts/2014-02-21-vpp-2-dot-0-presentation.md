@@ -3,7 +3,7 @@ title: "VPP 2.0 Presentation"
 author: Justin Rummel
 layout: post
 date: 2014-02-21 15:39
-tags: 
+tags:
  - Apple
  - MacDMV
  - VPP

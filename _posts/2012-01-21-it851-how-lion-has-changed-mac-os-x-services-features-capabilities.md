@@ -2,7 +2,7 @@
 title: 'MacIT 2012 - IT851: How Lion Has Changed Mac OS X: Services, Features and Capabilities'
 author: Justin Rummel
 layout: post
-tags: 
+tags:
   - Apple
   - Lion
   - MacIT

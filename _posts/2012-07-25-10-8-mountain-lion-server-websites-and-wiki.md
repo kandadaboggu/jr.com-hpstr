@@ -5,7 +5,7 @@ layout: post
 permalink: /10-8-mountain-lion-server-websites-and-wiki/
 shorturl:
   - http://j.mp/MGHp6H
-tags: 
+tags:
   - Apple
   - Mt Lion
   - OSXS
@@ -23,7 +23,7 @@ Websites
 ---
 First Python is now included as an Apache Module. Python also gets a small update as Lion's version of python was 2.7.1 while Python 2.7.2 is available in Mt Lion. You can enable Python option along with PHP (which also received a small version bump from 5.3.10 to 5.3.13) in the main Websites configuration page.
 
-Another interesting item is by default Apple has pre-configured two sites; one for http (port 80) and one for https (port 443). This is a much welcome change as I'm always creating a second site for https in my installations so that “Profile Manager”, “Change Password”, or even logging into Wiki can be done in a secure fashion.
+Another interesting item is by default Apple has pre-configured two sites; one for http (port 80) and one for https (port 443). This is a much welcome change as I'm always creating a second site for https in my installations so that "Profile Manager", "Change Password", or even logging into Wiki can be done in a secure fashion.
 
 ![Web Settings 1]({{ site.url }}/images/2012/07/1-mtl-web.png)
 

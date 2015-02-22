@@ -5,7 +5,7 @@ layout: post
 permalink: /10-8-mountain-lion-server-dns/
 shorturl:
   - http://j.mp/NJtMT9
-tags: 
+tags:
   - Apple
   - DNS
   - Mt Lion

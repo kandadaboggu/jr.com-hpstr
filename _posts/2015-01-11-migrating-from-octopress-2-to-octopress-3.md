@@ -2,7 +2,7 @@
 layout: post
 title: "Migrating From Octopress 2 to Octopress 3"
 modified:
-categories: {{ dir }}
+categories:
 description:
 tags:
  - Octopress

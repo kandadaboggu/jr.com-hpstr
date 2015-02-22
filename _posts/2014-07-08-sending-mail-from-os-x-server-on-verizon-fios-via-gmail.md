@@ -3,7 +3,7 @@ title: "Sending Mail from OS X Server on Verizon FiOS via Gmail"
 author: Justin Rummel
 layout: post
 date: 2014-07-08 13:41
-tags: 
+tags:
  - Apple
  - Mavericks
  - OSXS
