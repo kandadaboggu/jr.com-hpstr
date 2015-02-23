@@ -38,7 +38,7 @@ curl -OL https://github.com/autopkg/autopkg/releases/download/v0.3.0/autopkg-0.3
 -	Add Default repo
 
 {% highlight bash %}
-autopkg repo-add http://github.com/autopkg/recipes.git
+autopkg repo-add https://github.com/autopkg/recipes.git
 {% endhighlight %}
 
 -	Download JSS-addon via autopkg

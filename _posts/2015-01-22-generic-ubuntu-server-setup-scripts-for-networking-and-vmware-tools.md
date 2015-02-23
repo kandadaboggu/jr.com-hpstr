@@ -35,7 +35,7 @@ Next we're going to input our FQDN and Networking info into the script so it can
 
 This script is available on my github repo at: [https://github.com/justinrummel/Random-Scripts/blob/master/VMWare/ubuntuSetup.sh](https://github.com/justinrummel/Random-Scripts/blob/master/VMWare/ubuntuSetup.sh), watch it in action below.
 
-<iframe src="//player.vimeo.com/video/117528351?portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/117528351">Ubuntu Server Setup Script Demo</a></p>
+<iframe src="//player.vimeo.com/video/117528351?portrait=0" width="500" height="281" frameborder="0"> </iframe>
 
 ## VMware Tools
 The next script makes sure that you have the proper VMware Tools installed on Ubuntu Server just in case you need to share a folder on your host computer to your Ubuntu server.  The storage point will be ```/mnt/hgfs/<<your folder name>>```.  This script will try to mount the CDROM on your VM, so be sure it is pointing to the VMware Linux Tools ISO by choosing Virtual Machine => Install VMware Tools.

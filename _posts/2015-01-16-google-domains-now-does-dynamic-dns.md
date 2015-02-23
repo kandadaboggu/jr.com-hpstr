@@ -28,7 +28,7 @@ Here’s a list of the updates:
 -	We added dynamic DNS so you can setup your domain and keep it pointing to the same computer even when the IP address changes because you requested this for your business.
 {% endblockquote %}
 
-It's that last bullet that I'm excited about, Dynamic DNS!  I logged into my account to searched around for the new Dynamic DNS interface and couldn't find the right location.  Since googleing "Google Domains" is somewhat pointless in returning decent results (much like OSX's security command), I did [what I thought was the unthinkable]({{ site.url}}/i-moved-my-domains-to-google-domains/) and used Google Domains [new support chat feature][chat]!  I was directed to review the DNS Section, then "Synthetic records" area for a new added dropdown option for Dynamic DNS.  
+It's that last bullet that I'm excited about, Dynamic DNS!  I logged into my account to searched around for the new Dynamic DNS interface and couldn't find the right location.  Since googleing "Google Domains" is somewhat pointless in returning decent results (much like OSX's security command), I did [what I thought was the unthinkable]({{ site.url}}/i-moved-my-domains-to-google-domains-and-you-wont-believe-what-happened-next/) and used Google Domains [new support chat feature][chat]!  I was directed to review the DNS Section, then "Synthetic records" area for a new added dropdown option for Dynamic DNS.  
 
 <figure>
 <a href="{{ site.url }}/images/2015/01/15/Google-DynDNS-Add.png"><img src="{{ site.url }}/images/2015/01/15/Google-DynDNS-Add_800.png" alt="Add Google Domains" title="Add Google Domains" /></a>

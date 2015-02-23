@@ -1,13 +1,13 @@
 ---
 layout: page
 title: "Search"
-date: 
+date:
 modified:
 description:
 image:
   feature: abstract-3.jpg
   credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+  creditlink: http://www.dargadgetz.com/ios-8-abstract-wallpaper-pack-for-iphone-5s-5c-and-ipod-touch-retina/
 share: false
 comments: false
 ---
@@ -22,7 +22,7 @@ comments: false
 </div>
 
 <section id="search-results" style="display: none;">
-	<h1>Search results</h1>
+	<h1>Search Results</h1>
 	<div class="entries">
 	</div>
 </section>
