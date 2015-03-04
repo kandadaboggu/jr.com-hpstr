@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'jekyll'
-gem 'coderay'
 gem 'sass'
 gem 'jekyll-sitemap'
 
@@ -12,5 +11,4 @@ group :jekyll_plugins do
 	gem 'jekyll-twitter-plugin'
 	gem 'jekyll-lunr-js-search'
 #	gem 'octopress-minify-html'
-#	gem 'flickraw'
 end
