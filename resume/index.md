@@ -34,6 +34,7 @@ modified: 2015-01-23
 *   ACSA, Apple Certified System Administrator 10.5/10.6
 *   Apple Mobile Technology Competency Certified
 *   CCA, Certified Casper Administrator
+*	Network Security Basic Administration NS-102, 2015
 *   ACWA, Aerohive Certified Wireless Administrator, 2010
 *   Promise Level2 Certification, 2009
 *   Xsan 2 Administrator Certifications, 2009
